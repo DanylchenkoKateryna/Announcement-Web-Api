@@ -2,7 +2,7 @@
 using EmployeeDirectory.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace Entities
+namespace Data.Data
 {
     public class RepositoryContext : DbContext
     {
@@ -10,7 +10,7 @@ namespace Entities
         : base(options)
         {
         }
-        public DbSet<Announcement> announcements { get; set; }
+        public DbSet<Announcement> Announcements { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Announcement>().HasData(SeedData.WebAppDev().Generate(25));

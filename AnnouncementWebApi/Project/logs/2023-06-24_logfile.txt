@@ -1,0 +1,1655 @@
+2023-06-24 13:24:56.4975 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-24 13:24:56.8137 DEBUG Hosting starting
+2023-06-24 13:24:57.5071 INFO Now listening on: https://localhost:7265
+2023-06-24 13:24:57.5071 INFO Now listening on: http://localhost:5273
+2023-06-24 13:24:57.5071 DEBUG Loaded hosting startup assembly AnnouncementWebApi
+2023-06-24 13:24:57.5071 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-24 13:24:57.5071 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-24 13:24:57.5071 INFO Application started. Press Ctrl+C to shut down.
+2023-06-24 13:24:57.5071 INFO Hosting environment: Development
+2023-06-24 13:24:57.5071 INFO Content root path: C:\Users\Я\OneDrive\Рабочий стол\data\announcement2\Announcement-Web-Api\AnnouncementWebApi
+2023-06-24 13:24:57.5071 DEBUG Hosting started
+2023-06-24 13:24:57.6132 DEBUG Connection id "0HMRKJL16O214" accepted.
+2023-06-24 13:24:57.6132 DEBUG Connection id "0HMRKJL16O214" started.
+2023-06-24 13:24:57.6334 DEBUG Connection id "0HMRKJL16O215" accepted.
+2023-06-24 13:24:57.6334 DEBUG Connection id "0HMRKJL16O215" started.
+2023-06-24 13:25:00.8007 DEBUG Connection id "0HMRKJL16O216" accepted.
+2023-06-24 13:25:00.8360 DEBUG Connection id "0HMRKJL16O216" started.
+2023-06-24 13:25:00.8733 DEBUG Connection id "0HMRKJL16O217" accepted.
+2023-06-24 13:25:00.8862 DEBUG Connection id "0HMRKJL16O217" started.
+2023-06-24 13:25:01.0560 DEBUG Connection id "0HMRKJL16O217" received FIN.
+2023-06-24 13:25:01.1160 DEBUG Connection 0HMRKJL16O217 established using the following protocol: Tls13
+2023-06-24 13:25:01.1160 DEBUG Connection 0HMRKJL16O216 established using the following protocol: Tls13
+2023-06-24 13:25:01.2836 DEBUG Connection id "0HMRKJL16O217" is closed. The last processed stream ID was 0.
+2023-06-24 13:25:01.2894 DEBUG Connection id "0HMRKJL16O217" sending FIN because: "The client closed the connection."
+2023-06-24 13:25:01.2894 DEBUG The connection queue processing loop for 0HMRKJL16O217 completed.
+2023-06-24 13:25:01.2894 DEBUG Connection id "0HMRKJL16O217" stopped.
+2023-06-24 13:25:01.3509 INFO Request starting HTTP/2 GET https://localhost:7265/swagger - -
+2023-06-24 13:25:01.4011 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2023-06-24 13:25:01.4446 DEBUG No candidates found for the request path '/swagger'
+2023-06-24 13:25:01.4446 DEBUG Request did not match any endpoints
+2023-06-24 13:25:01.5152 INFO Request finished HTTP/2 GET https://localhost:7265/swagger - - - 301 0 - 167.5026ms
+2023-06-24 13:25:01.5459 INFO Request starting HTTP/2 GET https://localhost:7265/swagger/index.html - -
+2023-06-24 13:25:01.5459 DEBUG No candidates found for the request path '/swagger/index.html'
+2023-06-24 13:25:01.5459 DEBUG Request did not match any endpoints
+2023-06-24 13:25:01.8340 DEBUG Response markup is scheduled to include browser refresh script injection.
+2023-06-24 13:25:01.8508 DEBUG Response markup was updated to include browser refresh script injection.
+2023-06-24 13:25:01.8508 INFO Request finished HTTP/2 GET https://localhost:7265/swagger/index.html - - - 200 - text/html;charset=utf-8 307.5936ms
+2023-06-24 13:25:01.8508 INFO Request starting HTTP/2 GET https://localhost:7265/swagger/swagger-ui.css - -
+2023-06-24 13:25:01.8508 DEBUG No candidates found for the request path '/swagger/swagger-ui.css'
+2023-06-24 13:25:01.8508 DEBUG Request did not match any endpoints
+2023-06-24 13:25:01.8508 INFO Request starting HTTP/2 GET https://localhost:7265/swagger/swagger-ui-standalone-preset.js - -
+2023-06-24 13:25:01.8508 INFO Request starting HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - -
+2023-06-24 13:25:01.8508 DEBUG No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-06-24 13:25:01.8508 DEBUG Request did not match any endpoints
+2023-06-24 13:25:01.8508 INFO Request starting HTTP/2 GET https://localhost:7265/swagger/swagger-ui-bundle.js - -
+2023-06-24 13:25:01.8508 DEBUG No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-06-24 13:25:01.8508 DEBUG Request did not match any endpoints
+2023-06-24 13:25:01.8907 INFO Request finished HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 29.7960ms
+2023-06-24 13:25:01.9433 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-06-24 13:25:01.9433 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-06-24 13:25:01.9433 INFO Request finished HTTP/2 GET https://localhost:7265/swagger/swagger-ui.css - - - 200 143943 text/css 83.4833ms
+2023-06-24 13:25:01.9433 INFO Request finished HTTP/2 GET https://localhost:7265/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 82.7039ms
+2023-06-24 13:25:01.9684 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-06-24 13:25:01.9684 INFO Request finished HTTP/2 GET https://localhost:7265/swagger/swagger-ui-bundle.js - - - 200 1096145 text/javascript 107.7824ms
+2023-06-24 13:25:02.7513 INFO Request starting HTTP/2 GET https://localhost:7265/_vs/browserLink - -
+2023-06-24 13:25:03.2810 INFO Request finished HTTP/2 GET https://localhost:7265/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 529.7352ms
+2023-06-24 13:25:03.6500 INFO Request starting HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - -
+2023-06-24 13:25:03.6500 INFO Request starting HTTP/2 GET https://localhost:7265/swagger/favicon-32x32.png - -
+2023-06-24 13:25:03.6500 DEBUG No candidates found for the request path '/swagger/favicon-32x32.png'
+2023-06-24 13:25:03.6500 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-24 13:25:03.6500 DEBUG Request did not match any endpoints
+2023-06-24 13:25:03.6500 DEBUG Request did not match any endpoints
+2023-06-24 13:25:03.6500 INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-24 13:25:03.6500 INFO Request finished HTTP/2 GET https://localhost:7265/swagger/favicon-32x32.png - - - 200 628 image/png 1.3279ms
+2023-06-24 13:25:03.9758 INFO Request finished HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 325.8170ms
+2023-06-24 13:25:05.3246 DEBUG Connection id "0HMRKJL16O216" received FIN.
+2023-06-24 13:25:05.3246 DEBUG Connection id "0HMRKJL16O216" is closed. The last processed stream ID was 17.
+2023-06-24 13:25:05.3246 DEBUG The connection queue processing loop for 0HMRKJL16O216 completed.
+2023-06-24 13:25:05.3246 DEBUG Connection id "0HMRKJL16O216" sending FIN because: "The client closed the connection."
+2023-06-24 13:25:05.3454 DEBUG Connection id "0HMRKJL16O216" stopped.
+2023-06-24 13:25:07.6755 DEBUG Authentication of the HTTPS connection timed out.
+2023-06-24 13:25:07.6755 DEBUG Authentication of the HTTPS connection timed out.
+2023-06-24 13:25:07.6755 DEBUG Connection id "0HMRKJL16O214" stopped.
+2023-06-24 13:25:07.6755 DEBUG Connection id "0HMRKJL16O215" stopped.
+2023-06-24 13:25:07.6755 DEBUG Connection id "0HMRKJL16O214" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-24 13:25:07.6755 DEBUG Connection id "0HMRKJL16O215" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-24 13:25:23.2909 DEBUG Connection id "0HMRKJL16O218" accepted.
+2023-06-24 13:25:23.2909 DEBUG Connection id "0HMRKJL16O218" started.
+2023-06-24 13:25:23.2909 DEBUG Connection 0HMRKJL16O218 established using the following protocol: Tls13
+2023-06-24 13:25:23.2909 INFO Request starting HTTP/2 GET https://localhost:7265/Announcement - -
+2023-06-24 13:25:23.3036 DEBUG 1 candidate(s) found for the request path '/Announcement'
+2023-06-24 13:25:23.3036 DEBUG Endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetAll (AnnouncementWebApi)' with route pattern 'Announcement' is valid for the request path '/Announcement'
+2023-06-24 13:25:23.3036 DEBUG Request matched endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetAll (AnnouncementWebApi)'
+2023-06-24 13:25:23.3036 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-24 13:25:23.3036 INFO Executing endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetAll (AnnouncementWebApi)'
+2023-06-24 13:25:23.3526 INFO Route matched with {action = "GetAll", controller = "Announcement"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Data.Entities.Announcement]]] GetAll() on controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi).
+2023-06-24 13:25:23.3526 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-24 13:25:23.3526 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-24 13:25:23.3526 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-24 13:25:23.3526 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-24 13:25:23.3526 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-24 13:25:23.3526 DEBUG Executing controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 13:25:24.6628 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-24 13:25:24.7267 DEBUG Executed controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 13:25:26.5505 DEBUG Entity Framework Core 7.0.8 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: None
+2023-06-24 13:25:26.8254 DEBUG Compiling query expression: 
+'DbSet<Announcement>()'
+2023-06-24 13:25:26.9904 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Announcement>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Announcement.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Announcement.DateAdded (DateTime) Required, 1], [Property: Announcement.Description (string) Required, 2], [Property: Announcement.Title (string) Required, 3] }
+        SELECT a.Id, a.DateAdded, a.Description, a.Title
+        FROM Announcements AS a), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Announcement>, 
+    Entities.RepositoryContext, 
+    False, 
+    False, 
+    True
+)'
+2023-06-24 13:25:27.0247 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-24 13:25:27.0247 DEBUG Creating DbConnection.
+2023-06-24 13:25:27.0554 DEBUG Created DbConnection. (26ms).
+2023-06-24 13:25:27.0554 DEBUG Created DbCommand for 'ExecuteReader' (37ms).
+2023-06-24 13:25:27.0554 DEBUG Initialized DbCommand for 'ExecuteReader' (40ms).
+2023-06-24 13:25:27.0554 DEBUG Opening connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 13:25:33.3893 DEBUG Opened connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 13:25:33.3976 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateAdded], [a].[Description], [a].[Title]
+FROM [Announcements] AS [a]
+2023-06-24 13:25:33.6997 INFO Executed DbCommand (303ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateAdded], [a].[Description], [a].[Title]
+FROM [Announcements] AS [a]
+2023-06-24 13:25:33.7473 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7691 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 13:25:33.7774 DEBUG Closing data reader to 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 13:25:33.7774 DEBUG A data reader for 'Announcement' on server '(localdb)\mssqllocaldb' is being disposed after spending 78ms reading results.
+2023-06-24 13:25:33.7774 DEBUG Closing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 13:25:33.7907 DEBUG Closed connection to database 'Announcement' on server '(localdb)\mssqllocaldb' (5ms).
+2023-06-24 13:25:33.8039 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-06-24 13:25:33.8039 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.
+2023-06-24 13:25:33.8039 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2023-06-24 13:25:33.8039 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-06-24 13:25:33.8039 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2023-06-24 13:25:33.8039 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-24 13:25:33.8039 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Data.Entities.Announcement, Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-24 13:25:33.8305 INFO Executed action AnnouncementWebApi.Controllers.AnnouncementController.GetAll (AnnouncementWebApi) in 10470.1597ms
+2023-06-24 13:25:33.8305 INFO Executed endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetAll (AnnouncementWebApi)'
+2023-06-24 13:25:33.8305 DEBUG 'RepositoryContext' disposed.
+2023-06-24 13:25:33.8390 DEBUG Disposing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 13:25:33.8390 DEBUG Disposed connection to database '' on server '' (1ms).
+2023-06-24 13:25:33.8390 INFO Request finished HTTP/2 GET https://localhost:7265/Announcement - - - 200 - application/json;+charset=utf-8 10542.0396ms
+2023-06-24 13:25:35.3557 DEBUG Connection id "0HMRKJL16O218" received FIN.
+2023-06-24 13:25:35.3557 DEBUG Connection id "0HMRKJL16O218" is closed. The last processed stream ID was 1.
+2023-06-24 13:25:35.3557 DEBUG Connection id "0HMRKJL16O218" sending FIN because: "The client closed the connection."
+2023-06-24 13:25:35.3557 DEBUG The connection queue processing loop for 0HMRKJL16O218 completed.
+2023-06-24 13:25:35.3557 DEBUG Connection id "0HMRKJL16O218" stopped.
+2023-06-24 15:22:35.4132 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-24 15:22:35.5510 DEBUG Hosting starting
+2023-06-24 15:22:35.9295 INFO Now listening on: https://localhost:7265
+2023-06-24 15:22:35.9295 INFO Now listening on: http://localhost:5273
+2023-06-24 15:22:35.9295 DEBUG Loaded hosting startup assembly AnnouncementWebApi
+2023-06-24 15:22:35.9295 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-24 15:22:35.9295 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-24 15:22:35.9295 INFO Application started. Press Ctrl+C to shut down.
+2023-06-24 15:22:35.9295 INFO Hosting environment: Development
+2023-06-24 15:22:35.9295 INFO Content root path: C:\Users\Я\OneDrive\Рабочий стол\data\announcement2\Announcement-Web-Api\AnnouncementWebApi
+2023-06-24 15:22:35.9295 DEBUG Hosting started
+2023-06-24 15:22:36.3446 DEBUG Connection id "0HMRKLMOS1QSO" received FIN.
+2023-06-24 15:22:36.3446 DEBUG Connection id "0HMRKLMOS1QSP" received FIN.
+2023-06-24 15:22:36.3446 DEBUG Connection id "0HMRKLMOS1QSO" accepted.
+2023-06-24 15:22:36.3446 DEBUG Connection id "0HMRKLMOS1QSP" accepted.
+2023-06-24 15:22:36.3446 DEBUG Connection id "0HMRKLMOS1QSP" started.
+2023-06-24 15:22:36.3446 DEBUG Connection id "0HMRKLMOS1QSO" started.
+2023-06-24 15:22:36.4043 DEBUG Failed to authenticate HTTPS connection.
+2023-06-24 15:22:36.4043 DEBUG Failed to authenticate HTTPS connection.
+2023-06-24 15:22:36.4043 DEBUG Connection id "0HMRKLMOS1QSO" stopped.
+2023-06-24 15:22:36.4043 DEBUG Connection id "0HMRKLMOS1QSP" stopped.
+2023-06-24 15:22:36.4185 DEBUG Connection id "0HMRKLMOS1QSP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-24 15:22:36.4185 DEBUG Connection id "0HMRKLMOS1QSO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-24 15:22:38.0161 DEBUG Connection id "0HMRKLMOS1QSQ" accepted.
+2023-06-24 15:22:38.0161 DEBUG Connection id "0HMRKLMOS1QSQ" started.
+2023-06-24 15:22:38.2191 DEBUG Connection 0HMRKLMOS1QSQ established using the following protocol: Tls13
+2023-06-24 15:22:38.5245 INFO Request starting HTTP/2 GET https://localhost:7265/swagger/index.html - -
+2023-06-24 15:22:38.6815 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2023-06-24 15:22:38.7258 DEBUG No candidates found for the request path '/swagger/index.html'
+2023-06-24 15:22:38.7258 DEBUG Request did not match any endpoints
+2023-06-24 15:22:39.0360 DEBUG Response markup is scheduled to include browser refresh script injection.
+2023-06-24 15:22:39.0760 DEBUG Response markup was updated to include browser refresh script injection.
+2023-06-24 15:22:39.0760 INFO Request finished HTTP/2 GET https://localhost:7265/swagger/index.html - - - 200 - text/html;charset=utf-8 559.3282ms
+2023-06-24 15:22:39.0995 INFO Request starting HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - -
+2023-06-24 15:22:39.1101 INFO Request finished HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 10.4967ms
+2023-06-24 15:22:39.9421 INFO Request starting HTTP/2 GET https://localhost:7265/_vs/browserLink - -
+2023-06-24 15:22:40.0859 INFO Request finished HTTP/2 GET https://localhost:7265/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 143.8585ms
+2023-06-24 15:22:40.3664 INFO Request starting HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - -
+2023-06-24 15:22:40.3664 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-24 15:22:40.3664 DEBUG Request did not match any endpoints
+2023-06-24 15:22:40.6352 INFO Request finished HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 268.6993ms
+2023-06-24 15:22:42.5600 DEBUG Connection id "0HMRKLMOS1QSQ" received FIN.
+2023-06-24 15:22:42.5600 DEBUG The connection queue processing loop for 0HMRKLMOS1QSQ completed.
+2023-06-24 15:22:42.5600 DEBUG Connection id "0HMRKLMOS1QSQ" is closed. The last processed stream ID was 7.
+2023-06-24 15:22:42.5600 DEBUG Connection id "0HMRKLMOS1QSQ" sending FIN because: "The client closed the connection."
+2023-06-24 15:22:42.5750 DEBUG Connection id "0HMRKLMOS1QSQ" stopped.
+2023-06-24 15:22:57.0316 DEBUG Connection id "0HMRKLMOS1QSR" accepted.
+2023-06-24 15:22:57.0316 DEBUG Connection id "0HMRKLMOS1QSR" started.
+2023-06-24 15:22:57.0316 DEBUG Connection 0HMRKLMOS1QSR established using the following protocol: Tls13
+2023-06-24 15:22:57.0391 INFO Request starting HTTP/2 GET https://localhost:7265/Announcement/5 - -
+2023-06-24 15:22:57.0391 DEBUG 1 candidate(s) found for the request path '/Announcement/5'
+2023-06-24 15:22:57.0391 DEBUG Endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetById (AnnouncementWebApi)' with route pattern 'Announcement/{id}' is valid for the request path '/Announcement/5'
+2023-06-24 15:22:57.0391 DEBUG Request matched endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetById (AnnouncementWebApi)'
+2023-06-24 15:22:57.0391 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-24 15:22:57.0548 INFO Executing endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetById (AnnouncementWebApi)'
+2023-06-24 15:22:57.2883 INFO Route matched with {action = "GetById", controller = "Announcement"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Data.Entities.Announcement]] GetById(Int32) on controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi).
+2023-06-24 15:22:57.2883 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-24 15:22:57.2883 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-24 15:22:57.2883 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-24 15:22:57.2883 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-24 15:22:57.2883 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-24 15:22:57.3039 DEBUG Executing controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:22:57.5288 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-24 15:22:57.5625 INFO Executed action AnnouncementWebApi.Controllers.AnnouncementController.GetById (AnnouncementWebApi) in 255.8519ms
+2023-06-24 15:22:57.5625 INFO Executed endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetById (AnnouncementWebApi)'
+2023-06-24 15:22:57.5625 ERROR An unhandled exception has occurred while executing the request.
+2023-06-24 15:22:57.6365 INFO Request finished HTTP/2 GET https://localhost:7265/Announcement/5 - - - 500 - text/plain;+charset=utf-8 597.3525ms
+2023-06-24 15:23:02.5695 DEBUG Connection id "0HMRKLMOS1QSR" received FIN.
+2023-06-24 15:23:02.5695 DEBUG Connection id "0HMRKLMOS1QSR" is closed. The last processed stream ID was 1.
+2023-06-24 15:23:02.5695 DEBUG Connection id "0HMRKLMOS1QSR" sending FIN because: "The client closed the connection."
+2023-06-24 15:23:02.5695 DEBUG The connection queue processing loop for 0HMRKLMOS1QSR completed.
+2023-06-24 15:23:02.5695 DEBUG Connection id "0HMRKLMOS1QSR" stopped.
+2023-06-24 15:25:17.7841 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-24 15:25:18.0154 DEBUG Hosting starting
+2023-06-24 15:25:18.9581 INFO Now listening on: https://localhost:7265
+2023-06-24 15:25:18.9581 INFO Now listening on: http://localhost:5273
+2023-06-24 15:25:18.9594 DEBUG Loaded hosting startup assembly AnnouncementWebApi
+2023-06-24 15:25:18.9594 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-24 15:25:18.9594 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-24 15:25:18.9594 INFO Application started. Press Ctrl+C to shut down.
+2023-06-24 15:25:18.9594 INFO Hosting environment: Development
+2023-06-24 15:25:18.9594 INFO Content root path: C:\Users\Я\OneDrive\Рабочий стол\data\announcement2\Announcement-Web-Api\AnnouncementWebApi
+2023-06-24 15:25:18.9594 DEBUG Hosting started
+2023-06-24 15:25:19.4390 DEBUG Connection id "0HMRKLO9FEH5B" received FIN.
+2023-06-24 15:25:19.4515 DEBUG Connection id "0HMRKLO9FEH5B" accepted.
+2023-06-24 15:25:19.4515 DEBUG Connection id "0HMRKLO9FEH5B" started.
+2023-06-24 15:25:19.5089 DEBUG Failed to authenticate HTTPS connection.
+2023-06-24 15:25:19.5089 DEBUG Connection id "0HMRKLO9FEH5B" stopped.
+2023-06-24 15:25:19.5334 DEBUG Connection id "0HMRKLO9FEH5B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-24 15:25:21.1125 DEBUG Connection id "0HMRKLO9FEH5C" accepted.
+2023-06-24 15:25:21.1542 DEBUG Connection id "0HMRKLO9FEH5C" started.
+2023-06-24 15:25:21.2730 DEBUG Connection 0HMRKLO9FEH5C established using the following protocol: Tls13
+2023-06-24 15:25:21.6609 INFO Request starting HTTP/2 GET https://localhost:7265/swagger/index.html - -
+2023-06-24 15:25:21.7867 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2023-06-24 15:25:21.8399 DEBUG No candidates found for the request path '/swagger/index.html'
+2023-06-24 15:25:21.8399 DEBUG Request did not match any endpoints
+2023-06-24 15:25:22.1901 DEBUG Response markup is scheduled to include browser refresh script injection.
+2023-06-24 15:25:22.2310 DEBUG Response markup was updated to include browser refresh script injection.
+2023-06-24 15:25:22.2310 INFO Request finished HTTP/2 GET https://localhost:7265/swagger/index.html - - - 200 - text/html;charset=utf-8 584.9418ms
+2023-06-24 15:25:22.2571 INFO Request starting HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - -
+2023-06-24 15:25:22.2571 INFO Request finished HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 8.6605ms
+2023-06-24 15:25:23.0580 INFO Request starting HTTP/2 GET https://localhost:7265/_vs/browserLink - -
+2023-06-24 15:25:23.1960 INFO Request finished HTTP/2 GET https://localhost:7265/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 137.9720ms
+2023-06-24 15:25:23.3028 INFO Request starting HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - -
+2023-06-24 15:25:23.3032 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-24 15:25:23.3032 DEBUG Request did not match any endpoints
+2023-06-24 15:25:23.6001 INFO Request finished HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 297.2643ms
+2023-06-24 15:25:25.7173 DEBUG Connection id "0HMRKLO9FEH5C" received FIN.
+2023-06-24 15:25:25.7173 DEBUG The connection queue processing loop for 0HMRKLO9FEH5C completed.
+2023-06-24 15:25:25.7280 DEBUG Connection id "0HMRKLO9FEH5C" is closed. The last processed stream ID was 7.
+2023-06-24 15:25:25.7280 DEBUG Connection id "0HMRKLO9FEH5C" sending FIN because: "The client closed the connection."
+2023-06-24 15:25:25.7280 DEBUG Connection id "0HMRKLO9FEH5C" stopped.
+2023-06-24 15:25:28.7256 DEBUG Connection id "0HMRKLO9FEH5D" accepted.
+2023-06-24 15:25:28.7256 DEBUG Connection id "0HMRKLO9FEH5D" started.
+2023-06-24 15:25:28.7256 DEBUG Connection 0HMRKLO9FEH5D established using the following protocol: Tls13
+2023-06-24 15:25:28.7256 INFO Request starting HTTP/2 GET https://localhost:7265/Announcement/5 - -
+2023-06-24 15:25:28.7414 DEBUG 1 candidate(s) found for the request path '/Announcement/5'
+2023-06-24 15:25:28.7414 DEBUG Endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetById (AnnouncementWebApi)' with route pattern 'Announcement/{id}' is valid for the request path '/Announcement/5'
+2023-06-24 15:25:28.7414 DEBUG Request matched endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetById (AnnouncementWebApi)'
+2023-06-24 15:25:28.7414 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-24 15:25:28.7414 INFO Executing endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetById (AnnouncementWebApi)'
+2023-06-24 15:25:28.8206 INFO Route matched with {action = "GetById", controller = "Announcement"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Data.Entities.Announcement]] GetById(Int32) on controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi).
+2023-06-24 15:25:28.8206 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-24 15:25:28.8206 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-24 15:25:28.8206 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-24 15:25:28.8206 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-24 15:25:28.8206 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-24 15:25:28.8206 DEBUG Executing controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:25:29.0263 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-24 15:25:29.1559 DEBUG Executed controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:25:29.1750 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-06-24 15:25:29.1750 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-06-24 15:25:29.1783 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-24 15:25:29.1783 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-24 15:25:29.1783 DEBUG Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-06-24 15:25:29.1783 DEBUG Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-06-24 15:25:54.4341 DEBUG Entity Framework Core 7.0.8 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: None
+2023-06-24 15:25:54.5733 DEBUG Compiling query expression: 
+'DbSet<Announcement>()
+    .FirstOrDefault(e => EF.Property<int>(e, "Id") == __p_0)'
+2023-06-24 15:25:54.8210 DEBUG Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Announcement>(
+    asyncEnumerable: new SingleQueryingEnumerable<Announcement>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Announcement.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Announcement.DateAdded (DateTime) Required, 1], [Property: Announcement.Description (string) Required, 2], [Property: Announcement.Title (string) Required, 3] }
+            SELECT TOP(1) a.Id, a.DateAdded, a.Description, a.Title
+            FROM Announcements AS a
+            WHERE a.Id == @__p_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Announcement>, 
+        Data.Data.RepositoryContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-06-24 15:25:54.8654 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-24 15:25:54.8671 DEBUG Creating DbConnection.
+2023-06-24 15:25:54.9022 DEBUG Created DbConnection. (32ms).
+2023-06-24 15:25:54.9022 DEBUG Created DbCommand for 'ExecuteReader' (45ms).
+2023-06-24 15:25:54.9191 DEBUG Initialized DbCommand for 'ExecuteReader' (56ms).
+2023-06-24 15:25:54.9191 DEBUG Opening connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:26:02.0696 DEBUG Opened connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:26:02.0859 DEBUG Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DateAdded], [a].[Description], [a].[Title]
+FROM [Announcements] AS [a]
+WHERE [a].[Id] = @__p_0
+2023-06-24 15:26:02.5981 INFO Executed DbCommand (519ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DateAdded], [a].[Description], [a].[Title]
+FROM [Announcements] AS [a]
+WHERE [a].[Id] = @__p_0
+2023-06-24 15:26:02.6408 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:26:02.6640 DEBUG Closing data reader to 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:26:02.6640 DEBUG A data reader for 'Announcement' on server '(localdb)\mssqllocaldb' is being disposed after spending 67ms reading results.
+2023-06-24 15:26:02.6640 DEBUG Closing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:26:02.6796 DEBUG Closed connection to database 'Announcement' on server '(localdb)\mssqllocaldb' (5ms).
+2023-06-24 15:26:14.1313 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-06-24 15:26:14.1534 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.
+2023-06-24 15:26:14.1534 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2023-06-24 15:26:14.1534 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-06-24 15:26:14.1534 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2023-06-24 15:26:14.1534 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-24 15:26:14.1534 INFO Executing OkObjectResult, writing value of type 'Data.Entities.Announcement'.
+2023-06-24 15:26:14.3536 INFO Executed action AnnouncementWebApi.Controllers.AnnouncementController.GetById (AnnouncementWebApi) in 45525.1037ms
+2023-06-24 15:26:14.3536 INFO Executed endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetById (AnnouncementWebApi)'
+2023-06-24 15:26:14.3536 DEBUG 'RepositoryContext' disposed.
+2023-06-24 15:26:14.3536 DEBUG Disposing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:26:14.3536 DEBUG Disposed connection to database '' on server '' (1ms).
+2023-06-24 15:26:14.3536 INFO Request finished HTTP/2 GET https://localhost:7265/Announcement/5 - - - 200 - application/json;+charset=utf-8 45628.5648ms
+2023-06-24 15:26:15.7949 DEBUG Connection id "0HMRKLO9FEH5D" received FIN.
+2023-06-24 15:26:15.7949 DEBUG Connection id "0HMRKLO9FEH5D" is closed. The last processed stream ID was 1.
+2023-06-24 15:26:15.7949 DEBUG Connection id "0HMRKLO9FEH5D" sending FIN because: "The client closed the connection."
+2023-06-24 15:26:15.7949 DEBUG The connection queue processing loop for 0HMRKLO9FEH5D completed.
+2023-06-24 15:26:15.7949 DEBUG Connection id "0HMRKLO9FEH5D" stopped.
+2023-06-24 15:28:41.9874 DEBUG Connection id "0HMRKLO9FEH5E" accepted.
+2023-06-24 15:28:41.9874 DEBUG Connection id "0HMRKLO9FEH5E" started.
+2023-06-24 15:28:42.0059 DEBUG Connection 0HMRKLO9FEH5E established using the following protocol: Tls13
+2023-06-24 15:28:42.0074 INFO Request starting HTTP/2 GET https://localhost:7265/Announcement/80 - -
+2023-06-24 15:28:42.0074 DEBUG 1 candidate(s) found for the request path '/Announcement/80'
+2023-06-24 15:28:42.0074 DEBUG Endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetById (AnnouncementWebApi)' with route pattern 'Announcement/{id}' is valid for the request path '/Announcement/80'
+2023-06-24 15:28:42.0074 DEBUG Request matched endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetById (AnnouncementWebApi)'
+2023-06-24 15:28:42.0074 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-24 15:28:42.0456 INFO Executing endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetById (AnnouncementWebApi)'
+2023-06-24 15:28:42.0456 INFO Route matched with {action = "GetById", controller = "Announcement"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Data.Entities.Announcement]] GetById(Int32) on controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi).
+2023-06-24 15:28:42.0456 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-24 15:28:42.0456 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-24 15:28:42.0456 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-24 15:28:42.0456 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-24 15:28:42.0456 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-24 15:28:42.0456 DEBUG Executing controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:28:42.0456 DEBUG Executed controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:28:42.0456 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-06-24 15:28:42.0456 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-06-24 15:28:42.0456 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-24 15:28:42.0456 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-24 15:28:42.0456 DEBUG Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-06-24 15:28:42.0456 DEBUG Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-06-24 15:28:48.8516 DEBUG Entity Framework Core 7.0.8 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: None
+2023-06-24 15:28:48.8516 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-24 15:28:48.8516 DEBUG Creating DbConnection.
+2023-06-24 15:28:48.8516 DEBUG Created DbConnection. (0ms).
+2023-06-24 15:28:48.8516 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 15:28:48.8516 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 15:28:48.8516 DEBUG Opening connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:28:48.8516 DEBUG Opened connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:28:48.8516 DEBUG Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DateAdded], [a].[Description], [a].[Title]
+FROM [Announcements] AS [a]
+WHERE [a].[Id] = @__p_0
+2023-06-24 15:28:48.9103 INFO Executed DbCommand (48ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DateAdded], [a].[Description], [a].[Title]
+FROM [Announcements] AS [a]
+WHERE [a].[Id] = @__p_0
+2023-06-24 15:28:48.9103 DEBUG Closing data reader to 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:28:48.9103 DEBUG A data reader for 'Announcement' on server '(localdb)\mssqllocaldb' is being disposed after spending 0ms reading results.
+2023-06-24 15:28:48.9103 DEBUG Closing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:28:48.9103 DEBUG Closed connection to database 'Announcement' on server '(localdb)\mssqllocaldb' (0ms).
+2023-06-24 15:29:01.4935 INFO Announcement with id: 80 doesn't exist in the database.
+2023-06-24 15:29:07.9159 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-06-24 15:29:07.9159 DEBUG Attempting to select an output formatter based on Accept header 'text/plain' and explicitly specified content types 'application/problem+json, application/problem+xml, application/problem+json, application/problem+xml'. The content types in the accept header must be a subset of the explicitly set content types.
+2023-06-24 15:29:07.9159 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2023-06-24 15:29:07.9159 DEBUG Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types 'application/problem+json, application/problem+xml, application/problem+json, application/problem+xml'.
+2023-06-24 15:29:07.9159 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2023-06-24 15:29:07.9159 INFO Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-06-24 15:29:07.9159 INFO Executed action AnnouncementWebApi.Controllers.AnnouncementController.GetById (AnnouncementWebApi) in 25873.6958ms
+2023-06-24 15:29:07.9159 INFO Executed endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetById (AnnouncementWebApi)'
+2023-06-24 15:29:07.9159 DEBUG 'RepositoryContext' disposed.
+2023-06-24 15:29:07.9159 DEBUG Disposing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:29:07.9159 DEBUG Disposed connection to database '' on server '' (0ms).
+2023-06-24 15:29:07.9159 INFO Request finished HTTP/2 GET https://localhost:7265/Announcement/80 - - - 404 - application/problem+json;+charset=utf-8 25913.2869ms
+2023-06-24 15:29:11.0585 DEBUG Connection id "0HMRKLO9FEH5E" received FIN.
+2023-06-24 15:29:11.0585 DEBUG Connection id "0HMRKLO9FEH5E" is closed. The last processed stream ID was 1.
+2023-06-24 15:29:11.0585 DEBUG The connection queue processing loop for 0HMRKLO9FEH5E completed.
+2023-06-24 15:29:11.0585 DEBUG Connection id "0HMRKLO9FEH5E" sending FIN because: "The client closed the connection."
+2023-06-24 15:29:11.0733 DEBUG Connection id "0HMRKLO9FEH5E" stopped.
+2023-06-24 15:29:31.0020 DEBUG Connection id "0HMRKLO9FEH5F" accepted.
+2023-06-24 15:29:31.0020 DEBUG Connection id "0HMRKLO9FEH5F" started.
+2023-06-24 15:29:31.0089 DEBUG Connection 0HMRKLO9FEH5F established using the following protocol: Tls13
+2023-06-24 15:29:31.0089 INFO Request starting HTTP/2 GET https://localhost:7265/Announcement/-9 - -
+2023-06-24 15:29:31.0089 DEBUG 1 candidate(s) found for the request path '/Announcement/-9'
+2023-06-24 15:29:31.0089 DEBUG Endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetById (AnnouncementWebApi)' with route pattern 'Announcement/{id}' is valid for the request path '/Announcement/-9'
+2023-06-24 15:29:31.0089 DEBUG Request matched endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetById (AnnouncementWebApi)'
+2023-06-24 15:29:31.0089 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-24 15:29:31.0089 INFO Executing endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetById (AnnouncementWebApi)'
+2023-06-24 15:29:31.0089 INFO Route matched with {action = "GetById", controller = "Announcement"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Data.Entities.Announcement]] GetById(Int32) on controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi).
+2023-06-24 15:29:31.0089 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-24 15:29:31.0089 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-24 15:29:31.0089 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-24 15:29:31.0089 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-24 15:29:31.0089 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-24 15:29:31.0089 DEBUG Executing controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:29:31.0089 DEBUG Executed controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:29:31.0089 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-06-24 15:29:31.0089 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-06-24 15:29:31.0089 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-24 15:29:31.0089 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-24 15:29:31.0089 DEBUG Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-06-24 15:29:31.0089 DEBUG Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-06-24 15:29:36.2538 DEBUG Entity Framework Core 7.0.8 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: None
+2023-06-24 15:29:36.2584 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-24 15:29:36.2584 DEBUG Creating DbConnection.
+2023-06-24 15:29:36.2584 DEBUG Created DbConnection. (0ms).
+2023-06-24 15:29:36.2584 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 15:29:36.2584 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 15:29:36.2584 DEBUG Opening connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:29:36.2584 DEBUG Opened connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:29:36.2584 DEBUG Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DateAdded], [a].[Description], [a].[Title]
+FROM [Announcements] AS [a]
+WHERE [a].[Id] = @__p_0
+2023-06-24 15:29:36.2584 INFO Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DateAdded], [a].[Description], [a].[Title]
+FROM [Announcements] AS [a]
+WHERE [a].[Id] = @__p_0
+2023-06-24 15:29:36.2887 DEBUG Closing data reader to 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:29:36.2887 DEBUG A data reader for 'Announcement' on server '(localdb)\mssqllocaldb' is being disposed after spending 25ms reading results.
+2023-06-24 15:29:36.2887 DEBUG Closing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:29:36.2887 DEBUG Closed connection to database 'Announcement' on server '(localdb)\mssqllocaldb' (0ms).
+2023-06-24 15:29:41.5348 INFO Announcement with id: -9 doesn't exist in the database.
+2023-06-24 15:29:43.7181 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-06-24 15:29:43.7181 DEBUG Attempting to select an output formatter based on Accept header 'text/plain' and explicitly specified content types 'application/problem+json, application/problem+xml, application/problem+json, application/problem+xml'. The content types in the accept header must be a subset of the explicitly set content types.
+2023-06-24 15:29:43.7181 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2023-06-24 15:29:43.7181 DEBUG Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types 'application/problem+json, application/problem+xml, application/problem+json, application/problem+xml'.
+2023-06-24 15:29:43.7181 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2023-06-24 15:29:43.7181 INFO Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-06-24 15:29:43.7181 INFO Executed action AnnouncementWebApi.Controllers.AnnouncementController.GetById (AnnouncementWebApi) in 12708.9256ms
+2023-06-24 15:29:43.7181 INFO Executed endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetById (AnnouncementWebApi)'
+2023-06-24 15:29:43.7181 DEBUG 'RepositoryContext' disposed.
+2023-06-24 15:29:43.7181 DEBUG Disposing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:29:43.7181 DEBUG Disposed connection to database '' on server '' (0ms).
+2023-06-24 15:29:43.7181 INFO Request finished HTTP/2 GET https://localhost:7265/Announcement/-9 - - - 404 - application/problem+json;+charset=utf-8 12710.4364ms
+2023-06-24 15:29:46.0991 DEBUG Connection id "0HMRKLO9FEH5F" received FIN.
+2023-06-24 15:29:46.0991 DEBUG Connection id "0HMRKLO9FEH5F" is closed. The last processed stream ID was 1.
+2023-06-24 15:29:46.0991 DEBUG Connection id "0HMRKLO9FEH5F" sending FIN because: "The client closed the connection."
+2023-06-24 15:29:46.0991 DEBUG The connection queue processing loop for 0HMRKLO9FEH5F completed.
+2023-06-24 15:29:46.1002 DEBUG Connection id "0HMRKLO9FEH5F" stopped.
+2023-06-24 15:30:08.7841 DEBUG Connection id "0HMRKLO9FEH5G" accepted.
+2023-06-24 15:30:08.7938 DEBUG Connection id "0HMRKLO9FEH5G" started.
+2023-06-24 15:30:08.8073 DEBUG Connection 0HMRKLO9FEH5G established using the following protocol: Tls13
+2023-06-24 15:30:08.8073 INFO Request starting HTTP/2 GET https://localhost:7265/Announcement - -
+2023-06-24 15:30:08.8073 DEBUG 1 candidate(s) found for the request path '/Announcement'
+2023-06-24 15:30:08.8073 DEBUG Endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetAll (AnnouncementWebApi)' with route pattern 'Announcement' is valid for the request path '/Announcement'
+2023-06-24 15:30:08.8073 DEBUG Request matched endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetAll (AnnouncementWebApi)'
+2023-06-24 15:30:08.8073 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-24 15:30:08.8073 INFO Executing endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetAll (AnnouncementWebApi)'
+2023-06-24 15:30:08.8210 INFO Route matched with {action = "GetAll", controller = "Announcement"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Data.Entities.Announcement]]] GetAll() on controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi).
+2023-06-24 15:30:08.8210 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-24 15:30:08.8210 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-24 15:30:08.8210 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-24 15:30:08.8210 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-24 15:30:08.8210 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-24 15:30:08.8210 DEBUG Executing controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:30:18.1274 DEBUG Executed controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:30:18.1528 DEBUG Entity Framework Core 7.0.8 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: None
+2023-06-24 15:30:18.1528 DEBUG Compiling query expression: 
+'DbSet<Announcement>()'
+2023-06-24 15:30:18.1528 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Announcement>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Announcement.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Announcement.DateAdded (DateTime) Required, 1], [Property: Announcement.Description (string) Required, 2], [Property: Announcement.Title (string) Required, 3] }
+        SELECT a.Id, a.DateAdded, a.Description, a.Title
+        FROM Announcements AS a), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Announcement>, 
+    Data.Data.RepositoryContext, 
+    False, 
+    False, 
+    True
+)'
+2023-06-24 15:30:18.1528 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-24 15:30:18.1528 DEBUG Creating DbConnection.
+2023-06-24 15:30:18.1528 DEBUG Created DbConnection. (0ms).
+2023-06-24 15:30:18.1528 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 15:30:18.1528 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 15:30:18.1528 DEBUG Opening connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:30:18.1528 DEBUG Opened connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:30:18.1528 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateAdded], [a].[Description], [a].[Title]
+FROM [Announcements] AS [a]
+2023-06-24 15:30:18.1645 INFO Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateAdded], [a].[Description], [a].[Title]
+FROM [Announcements] AS [a]
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:30:18.1883 DEBUG Closing data reader to 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:30:18.1883 DEBUG A data reader for 'Announcement' on server '(localdb)\mssqllocaldb' is being disposed after spending 27ms reading results.
+2023-06-24 15:30:18.1883 DEBUG Closing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:30:18.1883 DEBUG Closed connection to database 'Announcement' on server '(localdb)\mssqllocaldb' (0ms).
+2023-06-24 15:30:32.2321 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-06-24 15:30:32.2321 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.
+2023-06-24 15:30:32.2321 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2023-06-24 15:30:32.2321 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-06-24 15:30:32.2321 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2023-06-24 15:30:32.2321 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-24 15:30:32.2321 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Data.Entities.Announcement, Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-24 15:30:32.2763 INFO Executed action AnnouncementWebApi.Controllers.AnnouncementController.GetAll (AnnouncementWebApi) in 23455.0714ms
+2023-06-24 15:30:32.2763 INFO Executed endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.GetAll (AnnouncementWebApi)'
+2023-06-24 15:30:32.2763 DEBUG 'RepositoryContext' disposed.
+2023-06-24 15:30:32.2763 DEBUG Disposing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:30:32.2763 DEBUG Disposed connection to database '' on server '' (0ms).
+2023-06-24 15:30:32.2763 INFO Request finished HTTP/2 GET https://localhost:7265/Announcement - - - 200 - application/json;+charset=utf-8 23468.2290ms
+2023-06-24 15:30:36.1711 DEBUG Connection id "0HMRKLO9FEH5G" received FIN.
+2023-06-24 15:30:36.1711 DEBUG Connection id "0HMRKLO9FEH5G" is closed. The last processed stream ID was 1.
+2023-06-24 15:30:36.1711 DEBUG Connection id "0HMRKLO9FEH5G" sending FIN because: "The client closed the connection."
+2023-06-24 15:30:36.1711 DEBUG The connection queue processing loop for 0HMRKLO9FEH5G completed.
+2023-06-24 15:30:36.1711 DEBUG Connection id "0HMRKLO9FEH5G" stopped.
+2023-06-24 15:30:58.6588 DEBUG Connection id "0HMRKLO9FEH5H" accepted.
+2023-06-24 15:30:58.6588 DEBUG Connection id "0HMRKLO9FEH5H" started.
+2023-06-24 15:30:58.6727 DEBUG Connection 0HMRKLO9FEH5H established using the following protocol: Tls13
+2023-06-24 15:30:58.6875 INFO Request starting HTTP/2 POST https://localhost:7265/Announcement application/json 47
+2023-06-24 15:30:58.6875 DEBUG 1 candidate(s) found for the request path '/Announcement'
+2023-06-24 15:30:58.6875 DEBUG Endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)' with route pattern 'Announcement' is valid for the request path '/Announcement'
+2023-06-24 15:30:58.6875 DEBUG Request matched endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:30:58.6875 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-24 15:30:58.6875 INFO Executing endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:30:58.6950 INFO Route matched with {action = "CreateAnnouncement", controller = "Announcement"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAnnouncement(Data.DTO.CreateAnnouncementDTO) on controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi).
+2023-06-24 15:30:58.6950 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-24 15:30:58.6950 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-24 15:30:58.6950 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-24 15:30:58.6950 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-24 15:30:58.6950 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-24 15:30:58.6950 DEBUG Executing controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:31:10.9715 DEBUG Executed controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:31:10.9715 DEBUG Attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' ...
+2023-06-24 15:31:10.9715 DEBUG Attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' using the name '' in request data ...
+2023-06-24 15:31:10.9715 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-06-24 15:31:10.9823 DEBUG Connection id "0HMRKLO9FEH5H", Request id "0HMRKLO9FEH5H:00000001": started reading request body.
+2023-06-24 15:31:10.9823 DEBUG Connection id "0HMRKLO9FEH5H", Request id "0HMRKLO9FEH5H:00000001": done reading request body.
+2023-06-24 15:31:13.6431 DEBUG JSON input formatter succeeded, deserializing to type 'Data.DTO.CreateAnnouncementDTO'
+2023-06-24 15:31:13.6431 DEBUG Done attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:31:13.6431 DEBUG Done attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:31:13.6431 DEBUG Attempting to validate the bound parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' ...
+2023-06-24 15:31:14.8515 DEBUG Done attempting to validate the bound parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:31:26.7150 DEBUG Entity Framework Core 7.0.8 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: None
+2023-06-24 15:31:26.7498 DEBUG '"RepositoryContext"' generated a temporary value for the property '"Id"."Announcement"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:31:26.7754 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:31:32.7034 DEBUG SaveChanges starting for 'RepositoryContext'.
+2023-06-24 15:31:32.7034 DEBUG DetectChanges starting for 'RepositoryContext'.
+2023-06-24 15:31:32.7168 DEBUG DetectChanges completed for 'RepositoryContext'.
+2023-06-24 15:31:32.7885 DEBUG Creating DbConnection.
+2023-06-24 15:31:32.7885 DEBUG Created DbConnection. (0ms).
+2023-06-24 15:31:32.7885 DEBUG Opening connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:31:32.7885 DEBUG Opened connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:31:32.7885 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-24 15:31:32.7885 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 15:31:32.7885 DEBUG Initialized DbCommand for 'ExecuteReader' (1ms).
+2023-06-24 15:31:32.7885 DEBUG Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Announcements] ([DateAdded], [Description], [Title])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2023-06-24 15:31:32.7885 INFO Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Announcements] ([DateAdded], [Description], [Title])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2023-06-24 15:31:32.8364 DEBUG The foreign key property 'Announcement.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-06-24 15:31:32.8364 DEBUG Closing data reader to 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:31:32.8364 DEBUG A data reader for 'Announcement' on server '(localdb)\mssqllocaldb' is being disposed after spending 38ms reading results.
+2023-06-24 15:31:32.8364 DEBUG Closing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:31:32.8364 DEBUG Closed connection to database 'Announcement' on server '(localdb)\mssqllocaldb' (0ms).
+2023-06-24 15:31:32.8511 DEBUG An entity of type 'Announcement' tracked by 'RepositoryContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:31:32.8511 DEBUG SaveChanges completed for 'RepositoryContext' with 1 entities written to the database.
+2023-06-24 15:31:35.6684 INFO Executing StatusCodeResult, setting HTTP status code 200
+2023-06-24 15:31:35.6684 INFO Executed action AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi) in 36974.0429ms
+2023-06-24 15:31:35.6684 INFO Executed endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:31:35.6684 DEBUG 'RepositoryContext' disposed.
+2023-06-24 15:31:35.6684 DEBUG Disposing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:31:35.6684 DEBUG Disposed connection to database '' on server '' (0ms).
+2023-06-24 15:31:35.6684 INFO Request finished HTTP/2 POST https://localhost:7265/Announcement application/json 47 - 200 0 - 36989.7556ms
+2023-06-24 15:31:41.2458 DEBUG Connection id "0HMRKLO9FEH5H" received FIN.
+2023-06-24 15:31:41.2458 DEBUG Connection id "0HMRKLO9FEH5H" is closed. The last processed stream ID was 1.
+2023-06-24 15:31:41.2458 DEBUG Connection id "0HMRKLO9FEH5H" sending FIN because: "The client closed the connection."
+2023-06-24 15:31:41.2458 DEBUG The connection queue processing loop for 0HMRKLO9FEH5H completed.
+2023-06-24 15:31:41.2458 DEBUG Connection id "0HMRKLO9FEH5H" stopped.
+2023-06-24 15:44:18.6009 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-24 15:44:18.7486 DEBUG Hosting starting
+2023-06-24 15:44:19.0713 INFO Now listening on: https://localhost:7265
+2023-06-24 15:44:19.0713 INFO Now listening on: http://localhost:5273
+2023-06-24 15:44:19.0713 DEBUG Loaded hosting startup assembly AnnouncementWebApi
+2023-06-24 15:44:19.0713 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-24 15:44:19.0713 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-24 15:44:19.0713 INFO Application started. Press Ctrl+C to shut down.
+2023-06-24 15:44:19.0713 INFO Hosting environment: Development
+2023-06-24 15:44:19.0713 INFO Content root path: C:\Users\Я\OneDrive\Рабочий стол\data\announcement2\Announcement-Web-Api\AnnouncementWebApi
+2023-06-24 15:44:19.0713 DEBUG Hosting started
+2023-06-24 15:44:19.3495 DEBUG Connection id "0HMRKM2T6FEN3" accepted.
+2023-06-24 15:44:19.3495 DEBUG Connection id "0HMRKM2T6FEN2" accepted.
+2023-06-24 15:44:19.3510 DEBUG Connection id "0HMRKM2T6FEN3" started.
+2023-06-24 15:44:19.3510 DEBUG Connection id "0HMRKM2T6FEN2" started.
+2023-06-24 15:44:19.3657 DEBUG Connection id "0HMRKM2T6FEN3" received FIN.
+2023-06-24 15:44:19.3657 DEBUG Connection id "0HMRKM2T6FEN2" received FIN.
+2023-06-24 15:44:19.4319 DEBUG Failed to authenticate HTTPS connection.
+2023-06-24 15:44:19.4319 DEBUG Failed to authenticate HTTPS connection.
+2023-06-24 15:44:19.4319 DEBUG Connection id "0HMRKM2T6FEN2" stopped.
+2023-06-24 15:44:19.4319 DEBUG Connection id "0HMRKM2T6FEN3" stopped.
+2023-06-24 15:44:19.4319 DEBUG Connection id "0HMRKM2T6FEN2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-24 15:44:19.4319 DEBUG Connection id "0HMRKM2T6FEN3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-24 15:44:21.0494 DEBUG Connection id "0HMRKM2T6FEN4" accepted.
+2023-06-24 15:44:21.0558 DEBUG Connection id "0HMRKM2T6FEN4" started.
+2023-06-24 15:44:21.1441 DEBUG Connection 0HMRKM2T6FEN4 established using the following protocol: Tls13
+2023-06-24 15:44:21.3479 INFO Request starting HTTP/2 GET https://localhost:7265/swagger/index.html - -
+2023-06-24 15:44:21.4173 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2023-06-24 15:44:21.4755 DEBUG No candidates found for the request path '/swagger/index.html'
+2023-06-24 15:44:21.4755 DEBUG Request did not match any endpoints
+2023-06-24 15:44:21.8380 DEBUG Response markup is scheduled to include browser refresh script injection.
+2023-06-24 15:44:21.8811 DEBUG Response markup was updated to include browser refresh script injection.
+2023-06-24 15:44:21.8934 INFO Request finished HTTP/2 GET https://localhost:7265/swagger/index.html - - - 200 - text/html;charset=utf-8 545.9560ms
+2023-06-24 15:44:22.9669 INFO Request starting HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - -
+2023-06-24 15:44:22.9669 INFO Request starting HTTP/2 GET https://localhost:7265/_vs/browserLink - -
+2023-06-24 15:44:22.9915 INFO Request finished HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 24.4224ms
+2023-06-24 15:44:23.1317 INFO Request finished HTTP/2 GET https://localhost:7265/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 164.6899ms
+2023-06-24 15:44:23.3118 INFO Request starting HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - -
+2023-06-24 15:44:23.3118 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-24 15:44:23.3118 DEBUG Request did not match any endpoints
+2023-06-24 15:44:23.6915 INFO Request finished HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 379.3073ms
+2023-06-24 15:44:25.4578 DEBUG Connection id "0HMRKM2T6FEN4" received FIN.
+2023-06-24 15:44:25.4618 DEBUG The connection queue processing loop for 0HMRKM2T6FEN4 completed.
+2023-06-24 15:44:25.4618 DEBUG Connection id "0HMRKM2T6FEN4" is closed. The last processed stream ID was 7.
+2023-06-24 15:44:25.4618 DEBUG Connection id "0HMRKM2T6FEN4" sending FIN because: "The client closed the connection."
+2023-06-24 15:44:25.4618 DEBUG Connection id "0HMRKM2T6FEN4" stopped.
+2023-06-24 15:44:36.2699 DEBUG Connection id "0HMRKM2T6FEN5" accepted.
+2023-06-24 15:44:36.2699 DEBUG Connection id "0HMRKM2T6FEN5" started.
+2023-06-24 15:44:36.2770 DEBUG Connection 0HMRKM2T6FEN5 established using the following protocol: Tls13
+2023-06-24 15:44:36.2770 INFO Request starting HTTP/2 POST https://localhost:7265/Announcement application/json 47
+2023-06-24 15:44:36.2770 DEBUG 1 candidate(s) found for the request path '/Announcement'
+2023-06-24 15:44:36.2891 DEBUG Endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)' with route pattern 'Announcement' is valid for the request path '/Announcement'
+2023-06-24 15:44:36.2891 DEBUG Request matched endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:44:36.2891 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-24 15:44:36.2891 INFO Executing endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:44:36.3562 INFO Route matched with {action = "CreateAnnouncement", controller = "Announcement"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAnnouncement(Data.DTO.CreateAnnouncementDTO) on controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi).
+2023-06-24 15:44:36.3562 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-24 15:44:36.3562 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-24 15:44:36.3562 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-24 15:44:36.3562 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-24 15:44:36.3562 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-24 15:44:36.3562 DEBUG Executing controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:44:36.6015 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-24 15:44:36.7406 DEBUG Executed controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:44:36.7575 DEBUG Attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' ...
+2023-06-24 15:44:36.7575 DEBUG Attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' using the name '' in request data ...
+2023-06-24 15:44:36.7575 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-06-24 15:44:36.7575 DEBUG Connection id "0HMRKM2T6FEN5", Request id "0HMRKM2T6FEN5:00000001": started reading request body.
+2023-06-24 15:44:36.7575 DEBUG Connection id "0HMRKM2T6FEN5", Request id "0HMRKM2T6FEN5:00000001": done reading request body.
+2023-06-24 15:44:36.7730 DEBUG JSON input formatter succeeded, deserializing to type 'Data.DTO.CreateAnnouncementDTO'
+2023-06-24 15:44:36.7730 DEBUG Done attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:44:36.7730 DEBUG Done attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:44:36.7730 DEBUG Attempting to validate the bound parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' ...
+2023-06-24 15:44:36.7730 DEBUG Done attempting to validate the bound parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:45:36.3905 DEBUG Entity Framework Core 7.0.8 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: None
+2023-06-24 15:45:36.4214 DEBUG '"RepositoryContext"' generated a temporary value for the property '"Id"."Announcement"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:45:36.4772 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:45:36.4772 DEBUG SaveChanges starting for 'RepositoryContext'.
+2023-06-24 15:45:36.4772 DEBUG DetectChanges starting for 'RepositoryContext'.
+2023-06-24 15:45:36.4972 DEBUG DetectChanges completed for 'RepositoryContext'.
+2023-06-24 15:45:36.5962 DEBUG Creating DbConnection.
+2023-06-24 15:45:36.6578 DEBUG Created DbConnection. (62ms).
+2023-06-24 15:45:36.6578 DEBUG Opening connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:45:37.0544 DEBUG Opened connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:45:37.0692 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-24 15:45:37.0692 DEBUG Created DbCommand for 'ExecuteReader' (9ms).
+2023-06-24 15:45:37.0992 DEBUG Initialized DbCommand for 'ExecuteReader' (29ms).
+2023-06-24 15:45:37.1161 DEBUG Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Announcements] ([DateAdded], [Description], [Title])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2023-06-24 15:45:37.2078 INFO Executed DbCommand (99ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Announcements] ([DateAdded], [Description], [Title])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2023-06-24 15:45:37.2357 DEBUG The foreign key property 'Announcement.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-06-24 15:45:37.2509 DEBUG Closing data reader to 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:45:37.2624 DEBUG A data reader for 'Announcement' on server '(localdb)\mssqllocaldb' is being disposed after spending 47ms reading results.
+2023-06-24 15:45:37.2624 DEBUG Closing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:45:37.2748 DEBUG Closed connection to database 'Announcement' on server '(localdb)\mssqllocaldb' (7ms).
+2023-06-24 15:45:37.2748 DEBUG An entity of type 'Announcement' tracked by 'RepositoryContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:45:37.2748 DEBUG SaveChanges completed for 'RepositoryContext' with 1 entities written to the database.
+2023-06-24 15:45:37.2919 INFO Executing StatusCodeResult, setting HTTP status code 200
+2023-06-24 15:45:37.2919 INFO Executed action AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi) in 60935.8148ms
+2023-06-24 15:45:37.2919 INFO Executed endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:45:37.3038 DEBUG 'RepositoryContext' disposed.
+2023-06-24 15:45:37.3038 DEBUG Disposing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:45:37.3038 DEBUG Disposed connection to database '' on server '' (1ms).
+2023-06-24 15:45:37.3038 INFO Request finished HTTP/2 POST https://localhost:7265/Announcement application/json 47 - 200 0 - 61030.8921ms
+2023-06-24 15:45:45.5693 DEBUG Connection id "0HMRKM2T6FEN5" received FIN.
+2023-06-24 15:45:45.5693 DEBUG Connection id "0HMRKM2T6FEN5" is closed. The last processed stream ID was 1.
+2023-06-24 15:45:45.5693 DEBUG Connection id "0HMRKM2T6FEN5" sending FIN because: "The client closed the connection."
+2023-06-24 15:45:45.5693 DEBUG The connection queue processing loop for 0HMRKM2T6FEN5 completed.
+2023-06-24 15:45:45.5693 DEBUG Connection id "0HMRKM2T6FEN5" stopped.
+2023-06-24 15:45:59.0998 DEBUG Connection id "0HMRKM2T6FEN6" accepted.
+2023-06-24 15:45:59.1007 DEBUG Connection id "0HMRKM2T6FEN6" started.
+2023-06-24 15:45:59.1007 DEBUG Connection 0HMRKM2T6FEN6 established using the following protocol: Tls13
+2023-06-24 15:45:59.1007 INFO Request starting HTTP/2 POST https://localhost:7265/Announcement application/json 47
+2023-06-24 15:45:59.1007 DEBUG 1 candidate(s) found for the request path '/Announcement'
+2023-06-24 15:45:59.1007 DEBUG Endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)' with route pattern 'Announcement' is valid for the request path '/Announcement'
+2023-06-24 15:45:59.1376 DEBUG Request matched endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:45:59.1376 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-24 15:45:59.1376 INFO Executing endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:45:59.1376 INFO Route matched with {action = "CreateAnnouncement", controller = "Announcement"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAnnouncement(Data.DTO.CreateAnnouncementDTO) on controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi).
+2023-06-24 15:45:59.1376 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-24 15:45:59.1376 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-24 15:45:59.1376 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-24 15:45:59.1376 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-24 15:45:59.1376 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-24 15:45:59.1376 DEBUG Executing controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:45:59.1483 DEBUG Executed controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:45:59.1483 DEBUG Attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' ...
+2023-06-24 15:45:59.1483 DEBUG Attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' using the name '' in request data ...
+2023-06-24 15:45:59.1483 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-06-24 15:45:59.1483 DEBUG Connection id "0HMRKM2T6FEN6", Request id "0HMRKM2T6FEN6:00000001": started reading request body.
+2023-06-24 15:45:59.1483 DEBUG Connection id "0HMRKM2T6FEN6", Request id "0HMRKM2T6FEN6:00000001": done reading request body.
+2023-06-24 15:45:59.1483 DEBUG JSON input formatter succeeded, deserializing to type 'Data.DTO.CreateAnnouncementDTO'
+2023-06-24 15:45:59.1483 DEBUG Done attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:45:59.1483 DEBUG Done attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:45:59.1483 DEBUG Attempting to validate the bound parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' ...
+2023-06-24 15:45:59.1483 DEBUG Done attempting to validate the bound parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:46:09.4294 DEBUG Entity Framework Core 7.0.8 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: None
+2023-06-24 15:46:09.4294 DEBUG '"RepositoryContext"' generated a temporary value for the property '"Id"."Announcement"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:46:09.4294 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:46:17.0844 DEBUG SaveChanges starting for 'RepositoryContext'.
+2023-06-24 15:46:17.0862 DEBUG DetectChanges starting for 'RepositoryContext'.
+2023-06-24 15:46:17.0862 DEBUG DetectChanges completed for 'RepositoryContext'.
+2023-06-24 15:46:17.0862 DEBUG Creating DbConnection.
+2023-06-24 15:46:17.0862 DEBUG Created DbConnection. (0ms).
+2023-06-24 15:46:17.0862 DEBUG Opening connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:46:17.0862 DEBUG Opened connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:46:17.0862 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-24 15:46:17.0862 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 15:46:17.0862 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 15:46:17.0862 DEBUG Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Announcements] ([DateAdded], [Description], [Title])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2023-06-24 15:46:17.1211 INFO Executed DbCommand (29ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Announcements] ([DateAdded], [Description], [Title])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2023-06-24 15:46:17.1211 DEBUG The foreign key property 'Announcement.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-06-24 15:46:17.1211 DEBUG Closing data reader to 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:46:17.1211 DEBUG A data reader for 'Announcement' on server '(localdb)\mssqllocaldb' is being disposed after spending 1ms reading results.
+2023-06-24 15:46:17.1211 DEBUG Closing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:46:17.1211 DEBUG Closed connection to database 'Announcement' on server '(localdb)\mssqllocaldb' (0ms).
+2023-06-24 15:46:17.1211 DEBUG An entity of type 'Announcement' tracked by 'RepositoryContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:46:17.1211 DEBUG SaveChanges completed for 'RepositoryContext' with 1 entities written to the database.
+2023-06-24 15:46:20.3151 INFO Executing StatusCodeResult, setting HTTP status code 200
+2023-06-24 15:46:20.3151 INFO Executed action AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi) in 21175.0395ms
+2023-06-24 15:46:20.3151 INFO Executed endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:46:20.3151 DEBUG 'RepositoryContext' disposed.
+2023-06-24 15:46:20.3190 DEBUG Disposing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:46:20.3190 DEBUG Disposed connection to database '' on server '' (0ms).
+2023-06-24 15:46:20.3190 INFO Request finished HTTP/2 POST https://localhost:7265/Announcement application/json 47 - 200 0 - 21211.2459ms
+2023-06-24 15:46:25.6264 DEBUG Connection id "0HMRKM2T6FEN6" received FIN.
+2023-06-24 15:46:25.6264 DEBUG Connection id "0HMRKM2T6FEN6" is closed. The last processed stream ID was 1.
+2023-06-24 15:46:25.6264 DEBUG Connection id "0HMRKM2T6FEN6" sending FIN because: "The client closed the connection."
+2023-06-24 15:46:25.6264 DEBUG The connection queue processing loop for 0HMRKM2T6FEN6 completed.
+2023-06-24 15:46:25.6264 DEBUG Connection id "0HMRKM2T6FEN6" stopped.
+2023-06-24 15:46:31.7840 DEBUG Connection id "0HMRKM2T6FEN7" accepted.
+2023-06-24 15:46:31.7840 DEBUG Connection id "0HMRKM2T6FEN7" started.
+2023-06-24 15:46:31.7891 DEBUG Connection 0HMRKM2T6FEN7 established using the following protocol: Tls13
+2023-06-24 15:46:31.7891 INFO Request starting HTTP/2 POST https://localhost:7265/Announcement application/json 47
+2023-06-24 15:46:31.7891 DEBUG 1 candidate(s) found for the request path '/Announcement'
+2023-06-24 15:46:31.7891 DEBUG Endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)' with route pattern 'Announcement' is valid for the request path '/Announcement'
+2023-06-24 15:46:31.7891 DEBUG Request matched endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:46:31.7891 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-24 15:46:31.7891 INFO Executing endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:46:31.7891 INFO Route matched with {action = "CreateAnnouncement", controller = "Announcement"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAnnouncement(Data.DTO.CreateAnnouncementDTO) on controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi).
+2023-06-24 15:46:31.7891 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-24 15:46:31.7891 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-24 15:46:31.7891 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-24 15:46:31.7891 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-24 15:46:31.7891 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-24 15:46:31.7891 DEBUG Executing controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:46:41.4280 DEBUG Executed controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:46:41.4282 DEBUG Attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' ...
+2023-06-24 15:46:41.4282 DEBUG Attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' using the name '' in request data ...
+2023-06-24 15:46:41.4282 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-06-24 15:46:41.4282 DEBUG Connection id "0HMRKM2T6FEN7", Request id "0HMRKM2T6FEN7:00000001": started reading request body.
+2023-06-24 15:46:41.4282 DEBUG Connection id "0HMRKM2T6FEN7", Request id "0HMRKM2T6FEN7:00000001": done reading request body.
+2023-06-24 15:46:44.0021 DEBUG JSON input formatter succeeded, deserializing to type 'Data.DTO.CreateAnnouncementDTO'
+2023-06-24 15:46:44.0021 DEBUG Done attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:46:44.0021 DEBUG Done attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:46:44.0021 DEBUG Attempting to validate the bound parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' ...
+2023-06-24 15:46:45.2054 DEBUG Done attempting to validate the bound parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:46:50.7108 DEBUG Entity Framework Core 7.0.8 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: None
+2023-06-24 15:46:50.7108 DEBUG '"RepositoryContext"' generated a temporary value for the property '"Id"."Announcement"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:46:50.7108 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:46:57.2105 DEBUG SaveChanges starting for 'RepositoryContext'.
+2023-06-24 15:46:57.2105 DEBUG DetectChanges starting for 'RepositoryContext'.
+2023-06-24 15:46:57.2105 DEBUG DetectChanges completed for 'RepositoryContext'.
+2023-06-24 15:46:57.2105 DEBUG Creating DbConnection.
+2023-06-24 15:46:57.2105 DEBUG Created DbConnection. (0ms).
+2023-06-24 15:46:57.2105 DEBUG Opening connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:46:57.2105 DEBUG Opened connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:46:57.2105 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-24 15:46:57.2105 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 15:46:57.2105 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 15:46:57.2105 DEBUG Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Announcements] ([DateAdded], [Description], [Title])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2023-06-24 15:46:57.2348 INFO Executed DbCommand (21ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Announcements] ([DateAdded], [Description], [Title])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2023-06-24 15:46:57.2348 DEBUG The foreign key property 'Announcement.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-06-24 15:46:57.2348 DEBUG Closing data reader to 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:46:57.2348 DEBUG A data reader for 'Announcement' on server '(localdb)\mssqllocaldb' is being disposed after spending 1ms reading results.
+2023-06-24 15:46:57.2348 DEBUG Closing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:46:57.2348 DEBUG Closed connection to database 'Announcement' on server '(localdb)\mssqllocaldb' (0ms).
+2023-06-24 15:46:57.2348 DEBUG An entity of type 'Announcement' tracked by 'RepositoryContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:46:57.2348 DEBUG SaveChanges completed for 'RepositoryContext' with 1 entities written to the database.
+2023-06-24 15:46:58.9539 INFO Executing StatusCodeResult, setting HTTP status code 200
+2023-06-24 15:46:58.9539 INFO Executed action AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi) in 27159.7928ms
+2023-06-24 15:46:58.9539 INFO Executed endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:46:58.9539 DEBUG 'RepositoryContext' disposed.
+2023-06-24 15:46:58.9539 DEBUG Disposing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:46:58.9539 DEBUG Disposed connection to database '' on server '' (0ms).
+2023-06-24 15:46:58.9539 INFO Request finished HTTP/2 POST https://localhost:7265/Announcement application/json 47 - 200 0 - 27165.2124ms
+2023-06-24 15:47:03.4438 INFO Request starting HTTP/2 POST https://localhost:7265/Announcement application/json 47
+2023-06-24 15:47:03.4438 DEBUG 1 candidate(s) found for the request path '/Announcement'
+2023-06-24 15:47:03.4438 DEBUG Endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)' with route pattern 'Announcement' is valid for the request path '/Announcement'
+2023-06-24 15:47:03.4438 DEBUG Request matched endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:47:03.4438 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-24 15:47:03.4438 INFO Executing endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:47:03.4438 INFO Route matched with {action = "CreateAnnouncement", controller = "Announcement"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAnnouncement(Data.DTO.CreateAnnouncementDTO) on controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi).
+2023-06-24 15:47:03.4438 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-24 15:47:03.4438 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-24 15:47:03.4438 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-24 15:47:03.4438 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-24 15:47:03.4438 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-24 15:47:03.4438 DEBUG Executing controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:47:12.9431 DEBUG Executed controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:47:12.9442 DEBUG Attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' ...
+2023-06-24 15:47:12.9442 DEBUG Attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' using the name '' in request data ...
+2023-06-24 15:47:12.9442 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-06-24 15:47:12.9442 DEBUG Connection id "0HMRKM2T6FEN7", Request id "0HMRKM2T6FEN7:00000003": started reading request body.
+2023-06-24 15:47:12.9442 DEBUG Connection id "0HMRKM2T6FEN7", Request id "0HMRKM2T6FEN7:00000003": done reading request body.
+2023-06-24 15:47:13.9095 DEBUG JSON input formatter succeeded, deserializing to type 'Data.DTO.CreateAnnouncementDTO'
+2023-06-24 15:47:13.9095 DEBUG Done attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:47:13.9095 DEBUG Done attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:47:13.9095 DEBUG Attempting to validate the bound parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' ...
+2023-06-24 15:47:14.9617 DEBUG Done attempting to validate the bound parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:47:18.9266 DEBUG Entity Framework Core 7.0.8 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: None
+2023-06-24 15:47:18.9266 DEBUG '"RepositoryContext"' generated a temporary value for the property '"Id"."Announcement"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:47:18.9285 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:47:27.2409 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-24 15:47:27.3548 DEBUG Hosting starting
+2023-06-24 15:47:27.6255 INFO Now listening on: https://localhost:7265
+2023-06-24 15:47:27.6255 INFO Now listening on: http://localhost:5273
+2023-06-24 15:47:27.6255 DEBUG Loaded hosting startup assembly AnnouncementWebApi
+2023-06-24 15:47:27.6255 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-24 15:47:27.6255 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-24 15:47:27.6255 INFO Application started. Press Ctrl+C to shut down.
+2023-06-24 15:47:27.6255 INFO Hosting environment: Development
+2023-06-24 15:47:27.6255 INFO Content root path: C:\Users\Я\OneDrive\Рабочий стол\data\announcement2\Announcement-Web-Api\AnnouncementWebApi
+2023-06-24 15:47:27.6255 DEBUG Hosting started
+2023-06-24 15:47:28.1246 DEBUG Connection id "0HMRKM4LEP5CS" received FIN.
+2023-06-24 15:47:28.1358 DEBUG Connection id "0HMRKM4LEP5CS" accepted.
+2023-06-24 15:47:28.1358 DEBUG Connection id "0HMRKM4LEP5CS" started.
+2023-06-24 15:47:28.1881 DEBUG Failed to authenticate HTTPS connection.
+2023-06-24 15:47:28.1969 DEBUG Connection id "0HMRKM4LEP5CS" stopped.
+2023-06-24 15:47:28.2231 DEBUG Connection id "0HMRKM4LEP5CS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-24 15:47:30.1150 DEBUG Connection id "0HMRKM4LEP5CT" accepted.
+2023-06-24 15:47:30.1199 DEBUG Connection id "0HMRKM4LEP5CT" started.
+2023-06-24 15:47:30.2454 DEBUG Connection 0HMRKM4LEP5CT established using the following protocol: Tls13
+2023-06-24 15:47:30.4250 INFO Request starting HTTP/2 GET https://localhost:7265/swagger/index.html - -
+2023-06-24 15:47:30.4938 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2023-06-24 15:47:30.5689 DEBUG No candidates found for the request path '/swagger/index.html'
+2023-06-24 15:47:30.5689 DEBUG Request did not match any endpoints
+2023-06-24 15:47:31.1377 DEBUG Response markup is scheduled to include browser refresh script injection.
+2023-06-24 15:47:31.1933 DEBUG Response markup was updated to include browser refresh script injection.
+2023-06-24 15:47:31.2138 INFO Request finished HTTP/2 GET https://localhost:7265/swagger/index.html - - - 200 - text/html;charset=utf-8 778.3811ms
+2023-06-24 15:47:31.2528 INFO Request starting HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - -
+2023-06-24 15:47:31.2757 INFO Request finished HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 22.7692ms
+2023-06-24 15:47:32.0765 INFO Request starting HTTP/2 GET https://localhost:7265/_vs/browserLink - -
+2023-06-24 15:47:32.1769 INFO Request finished HTTP/2 GET https://localhost:7265/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 100.3404ms
+2023-06-24 15:47:32.3565 INFO Request starting HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - -
+2023-06-24 15:47:32.3565 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-24 15:47:32.3565 DEBUG Request did not match any endpoints
+2023-06-24 15:47:32.7270 INFO Request finished HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 370.4675ms
+2023-06-24 15:47:34.7083 DEBUG Connection id "0HMRKM4LEP5CT" received FIN.
+2023-06-24 15:47:34.7134 DEBUG The connection queue processing loop for 0HMRKM4LEP5CT completed.
+2023-06-24 15:47:34.7134 DEBUG Connection id "0HMRKM4LEP5CT" is closed. The last processed stream ID was 7.
+2023-06-24 15:47:34.7134 DEBUG Connection id "0HMRKM4LEP5CT" sending FIN because: "The client closed the connection."
+2023-06-24 15:47:34.7134 DEBUG Connection id "0HMRKM4LEP5CT" stopped.
+2023-06-24 15:47:49.0211 DEBUG Connection id "0HMRKM4LEP5CU" accepted.
+2023-06-24 15:47:49.0211 DEBUG Connection id "0HMRKM4LEP5CU" started.
+2023-06-24 15:47:49.0276 DEBUG Connection 0HMRKM4LEP5CU established using the following protocol: Tls13
+2023-06-24 15:47:49.0276 INFO Request starting HTTP/2 POST https://localhost:7265/Announcement application/json 51
+2023-06-24 15:47:49.0276 DEBUG 1 candidate(s) found for the request path '/Announcement'
+2023-06-24 15:47:49.0276 DEBUG Endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)' with route pattern 'Announcement' is valid for the request path '/Announcement'
+2023-06-24 15:47:49.0378 DEBUG Request matched endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:47:49.0378 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-24 15:47:49.0378 INFO Executing endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:47:49.0845 INFO Route matched with {action = "CreateAnnouncement", controller = "Announcement"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAnnouncement(Data.DTO.CreateAnnouncementDTO) on controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi).
+2023-06-24 15:47:49.0845 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-24 15:47:49.0845 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-24 15:47:49.0845 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-24 15:47:49.0845 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-24 15:47:49.0845 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-24 15:47:49.0845 DEBUG Executing controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:47:49.2736 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-24 15:48:33.2553 DEBUG Executed controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:48:33.2780 DEBUG Attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' ...
+2023-06-24 15:48:33.2780 DEBUG Attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' using the name '' in request data ...
+2023-06-24 15:48:33.2780 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-06-24 15:48:33.3530 DEBUG Connection id "0HMRKM4LEP5CU", Request id "0HMRKM4LEP5CU:00000001": started reading request body.
+2023-06-24 15:48:33.3530 DEBUG Connection id "0HMRKM4LEP5CU", Request id "0HMRKM4LEP5CU:00000001": done reading request body.
+2023-06-24 15:48:33.4018 DEBUG JSON input formatter succeeded, deserializing to type 'Data.DTO.CreateAnnouncementDTO'
+2023-06-24 15:48:33.4018 DEBUG Done attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:48:33.4018 DEBUG Done attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:48:33.4018 DEBUG Attempting to validate the bound parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' ...
+2023-06-24 15:48:33.4018 DEBUG Done attempting to validate the bound parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:48:58.2460 DEBUG Entity Framework Core 7.0.8 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: None
+2023-06-24 15:48:58.2924 DEBUG '"RepositoryContext"' generated a temporary value for the property '"Id"."Announcement"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:48:58.3742 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:49:07.9949 DEBUG SaveChanges starting for 'RepositoryContext'.
+2023-06-24 15:49:07.9949 DEBUG DetectChanges starting for 'RepositoryContext'.
+2023-06-24 15:49:08.0135 DEBUG DetectChanges completed for 'RepositoryContext'.
+2023-06-24 15:49:08.1330 DEBUG Creating DbConnection.
+2023-06-24 15:49:08.1898 DEBUG Created DbConnection. (55ms).
+2023-06-24 15:49:08.1898 DEBUG Opening connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:49:08.5843 DEBUG Opened connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:49:08.5941 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-24 15:49:08.5941 DEBUG Created DbCommand for 'ExecuteReader' (3ms).
+2023-06-24 15:49:08.6089 DEBUG Initialized DbCommand for 'ExecuteReader' (15ms).
+2023-06-24 15:49:08.6172 DEBUG Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Announcements] ([DateAdded], [Description], [Title])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2023-06-24 15:49:08.6838 INFO Executed DbCommand (69ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Announcements] ([DateAdded], [Description], [Title])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2023-06-24 15:49:08.7038 DEBUG The foreign key property 'Announcement.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-06-24 15:49:08.7151 DEBUG Closing data reader to 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:49:08.7151 DEBUG A data reader for 'Announcement' on server '(localdb)\mssqllocaldb' is being disposed after spending 33ms reading results.
+2023-06-24 15:49:08.7274 DEBUG Closing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:49:08.7274 DEBUG Closed connection to database 'Announcement' on server '(localdb)\mssqllocaldb' (5ms).
+2023-06-24 15:49:08.7448 DEBUG An entity of type 'Announcement' tracked by 'RepositoryContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:49:08.7448 DEBUG SaveChanges completed for 'RepositoryContext' with 1 entities written to the database.
+2023-06-24 15:49:11.4444 INFO Executing StatusCodeResult, setting HTTP status code 200
+2023-06-24 15:49:11.4593 INFO Executed action AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi) in 82352.3976ms
+2023-06-24 15:49:11.4593 INFO Executed endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:49:11.4593 DEBUG 'RepositoryContext' disposed.
+2023-06-24 15:49:11.4593 DEBUG Disposing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:49:11.4762 DEBUG Disposed connection to database '' on server '' (2ms).
+2023-06-24 15:49:11.4762 INFO Request finished HTTP/2 POST https://localhost:7265/Announcement application/json 51 - 200 0 - 82446.3667ms
+2023-06-24 15:49:14.8572 DEBUG Connection id "0HMRKM4LEP5CU" received FIN.
+2023-06-24 15:49:14.8572 DEBUG Connection id "0HMRKM4LEP5CU" is closed. The last processed stream ID was 1.
+2023-06-24 15:49:14.8572 DEBUG Connection id "0HMRKM4LEP5CU" sending FIN because: "The client closed the connection."
+2023-06-24 15:49:14.8572 DEBUG The connection queue processing loop for 0HMRKM4LEP5CU completed.
+2023-06-24 15:49:14.8572 DEBUG Connection id "0HMRKM4LEP5CU" stopped.
+2023-06-24 15:49:33.8864 DEBUG Connection id "0HMRKM4LEP5CV" accepted.
+2023-06-24 15:49:33.8864 DEBUG Connection id "0HMRKM4LEP5CV" started.
+2023-06-24 15:49:33.8864 DEBUG Connection 0HMRKM4LEP5CV established using the following protocol: Tls13
+2023-06-24 15:49:33.8864 INFO Request starting HTTP/2 POST https://localhost:7265/Announcement application/json 38
+2023-06-24 15:49:33.8864 DEBUG 1 candidate(s) found for the request path '/Announcement'
+2023-06-24 15:49:33.8864 DEBUG Endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)' with route pattern 'Announcement' is valid for the request path '/Announcement'
+2023-06-24 15:49:33.8864 DEBUG Request matched endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:49:33.8864 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-24 15:49:33.8864 INFO Executing endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:49:33.8864 INFO Route matched with {action = "CreateAnnouncement", controller = "Announcement"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAnnouncement(Data.DTO.CreateAnnouncementDTO) on controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi).
+2023-06-24 15:49:33.8864 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-24 15:49:33.8864 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-24 15:49:33.8864 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-24 15:49:33.8864 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-24 15:49:33.8864 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-24 15:49:33.8864 DEBUG Executing controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:49:40.0750 DEBUG Executed controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:49:40.0750 DEBUG Attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' ...
+2023-06-24 15:49:40.0750 DEBUG Attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' using the name '' in request data ...
+2023-06-24 15:49:40.0750 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-06-24 15:49:40.0750 DEBUG Connection id "0HMRKM4LEP5CV", Request id "0HMRKM4LEP5CV:00000001": started reading request body.
+2023-06-24 15:49:40.0750 DEBUG Connection id "0HMRKM4LEP5CV", Request id "0HMRKM4LEP5CV:00000001": done reading request body.
+2023-06-24 15:49:41.3360 DEBUG JSON input formatter succeeded, deserializing to type 'Data.DTO.CreateAnnouncementDTO'
+2023-06-24 15:49:41.3360 DEBUG Done attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:49:41.3360 DEBUG Done attempting to bind parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:49:41.3360 DEBUG Attempting to validate the bound parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO' ...
+2023-06-24 15:49:41.6276 DEBUG Done attempting to validate the bound parameter 'announcementDto' of type 'Data.DTO.CreateAnnouncementDTO'.
+2023-06-24 15:49:49.0957 DEBUG Entity Framework Core 7.0.8 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: None
+2023-06-24 15:49:49.0957 DEBUG '"RepositoryContext"' generated a temporary value for the property '"Id"."Announcement"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:49:49.0999 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:49:49.6759 DEBUG SaveChanges starting for 'RepositoryContext'.
+2023-06-24 15:49:49.6759 DEBUG DetectChanges starting for 'RepositoryContext'.
+2023-06-24 15:49:49.6759 DEBUG DetectChanges completed for 'RepositoryContext'.
+2023-06-24 15:49:49.6801 DEBUG Creating DbConnection.
+2023-06-24 15:49:49.6801 DEBUG Created DbConnection. (0ms).
+2023-06-24 15:49:49.6801 DEBUG Opening connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:49:49.6801 DEBUG Opened connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:49:49.6801 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-24 15:49:49.6801 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 15:49:49.6801 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 15:49:49.6801 DEBUG Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Announcements] ([DateAdded], [Description], [Title])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2023-06-24 15:49:49.7084 INFO Executed DbCommand (25ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Announcements] ([DateAdded], [Description], [Title])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2023-06-24 15:49:49.7084 DEBUG The foreign key property 'Announcement.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-06-24 15:49:49.7084 DEBUG Closing data reader to 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:49:49.7084 DEBUG A data reader for 'Announcement' on server '(localdb)\mssqllocaldb' is being disposed after spending 0ms reading results.
+2023-06-24 15:49:49.7084 DEBUG Closing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:49:49.7084 DEBUG Closed connection to database 'Announcement' on server '(localdb)\mssqllocaldb' (0ms).
+2023-06-24 15:49:49.7084 DEBUG An entity of type 'Announcement' tracked by 'RepositoryContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:49:49.7084 DEBUG SaveChanges completed for 'RepositoryContext' with 1 entities written to the database.
+2023-06-24 15:49:50.5566 INFO Executing StatusCodeResult, setting HTTP status code 200
+2023-06-24 15:49:50.5566 INFO Executed action AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi) in 16662.3038ms
+2023-06-24 15:49:50.5566 INFO Executed endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.CreateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:49:50.5566 DEBUG 'RepositoryContext' disposed.
+2023-06-24 15:49:50.5566 DEBUG Disposing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:49:50.5566 DEBUG Disposed connection to database '' on server '' (0ms).
+2023-06-24 15:49:50.5566 INFO Request finished HTTP/2 POST https://localhost:7265/Announcement application/json 38 - 200 0 - 16664.1777ms
+2023-06-24 15:49:54.9041 DEBUG Connection id "0HMRKM4LEP5CV" received FIN.
+2023-06-24 15:49:54.9041 DEBUG Connection id "0HMRKM4LEP5CV" is closed. The last processed stream ID was 1.
+2023-06-24 15:49:54.9041 DEBUG Connection id "0HMRKM4LEP5CV" sending FIN because: "The client closed the connection."
+2023-06-24 15:49:54.9041 DEBUG The connection queue processing loop for 0HMRKM4LEP5CV completed.
+2023-06-24 15:49:54.9041 DEBUG Connection id "0HMRKM4LEP5CV" stopped.
+2023-06-24 15:57:32.6786 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-24 15:58:22.8767 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-24 15:58:23.1296 DEBUG Hosting starting
+2023-06-24 15:58:24.3545 INFO Now listening on: https://localhost:7265
+2023-06-24 15:58:24.3545 INFO Now listening on: http://localhost:5273
+2023-06-24 15:58:24.3692 DEBUG Loaded hosting startup assembly AnnouncementWebApi
+2023-06-24 15:58:24.3692 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-24 15:58:24.3692 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-24 15:58:24.3692 INFO Application started. Press Ctrl+C to shut down.
+2023-06-24 15:58:24.3692 INFO Hosting environment: Development
+2023-06-24 15:58:24.3692 INFO Content root path: C:\Users\Я\OneDrive\Рабочий стол\data\announcement2\Announcement-Web-Api\AnnouncementWebApi
+2023-06-24 15:58:24.3692 DEBUG Hosting started
+2023-06-24 15:58:24.5045 DEBUG Connection id "0HMRKMAP2G83H" accepted.
+2023-06-24 15:58:24.5045 DEBUG Connection id "0HMRKMAP2G83G" accepted.
+2023-06-24 15:58:24.5072 DEBUG Connection id "0HMRKMAP2G83H" started.
+2023-06-24 15:58:24.5072 DEBUG Connection id "0HMRKMAP2G83G" started.
+2023-06-24 15:58:24.5072 DEBUG Connection id "0HMRKMAP2G83G" received FIN.
+2023-06-24 15:58:24.5072 DEBUG Connection id "0HMRKMAP2G83H" received FIN.
+2023-06-24 15:58:24.5630 DEBUG Failed to authenticate HTTPS connection.
+2023-06-24 15:58:24.5630 DEBUG Failed to authenticate HTTPS connection.
+2023-06-24 15:58:24.5748 DEBUG Connection id "0HMRKMAP2G83G" stopped.
+2023-06-24 15:58:24.5748 DEBUG Connection id "0HMRKMAP2G83H" stopped.
+2023-06-24 15:58:24.5748 DEBUG Connection id "0HMRKMAP2G83G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-24 15:58:24.5748 DEBUG Connection id "0HMRKMAP2G83H" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-24 15:58:26.4524 DEBUG Connection id "0HMRKMAP2G83I" accepted.
+2023-06-24 15:58:26.4780 DEBUG Connection id "0HMRKMAP2G83I" started.
+2023-06-24 15:58:26.6565 DEBUG Connection 0HMRKMAP2G83I established using the following protocol: Tls13
+2023-06-24 15:58:27.3664 INFO Request starting HTTP/2 GET https://localhost:7265/swagger/index.html - -
+2023-06-24 15:58:27.4635 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2023-06-24 15:58:27.5246 DEBUG No candidates found for the request path '/swagger/index.html'
+2023-06-24 15:58:27.5246 DEBUG Request did not match any endpoints
+2023-06-24 15:58:27.9535 DEBUG Response markup is scheduled to include browser refresh script injection.
+2023-06-24 15:58:28.0020 DEBUG Response markup was updated to include browser refresh script injection.
+2023-06-24 15:58:28.0083 INFO Request finished HTTP/2 GET https://localhost:7265/swagger/index.html - - - 200 - text/html;charset=utf-8 646.5666ms
+2023-06-24 15:58:28.0318 INFO Request starting HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - -
+2023-06-24 15:58:28.0410 INFO Request finished HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 9.2273ms
+2023-06-24 15:58:29.1922 INFO Request starting HTTP/2 GET https://localhost:7265/_vs/browserLink - -
+2023-06-24 15:58:29.2731 INFO Request finished HTTP/2 GET https://localhost:7265/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 80.9567ms
+2023-06-24 15:58:29.4367 INFO Request starting HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - -
+2023-06-24 15:58:29.4367 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-24 15:58:29.4367 DEBUG Request did not match any endpoints
+2023-06-24 15:58:29.7114 INFO Request finished HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 274.6407ms
+2023-06-24 15:58:30.8111 DEBUG Connection id "0HMRKMAP2G83I" received FIN.
+2023-06-24 15:58:30.8111 DEBUG The connection queue processing loop for 0HMRKMAP2G83I completed.
+2023-06-24 15:58:30.8111 DEBUG Connection id "0HMRKMAP2G83I" is closed. The last processed stream ID was 7.
+2023-06-24 15:58:30.8111 DEBUG Connection id "0HMRKMAP2G83I" sending FIN because: "The client closed the connection."
+2023-06-24 15:58:30.8355 DEBUG Connection id "0HMRKMAP2G83I" stopped.
+2023-06-24 15:59:02.7494 DEBUG Connection id "0HMRKMAP2G83J" accepted.
+2023-06-24 15:59:02.7494 DEBUG Connection id "0HMRKMAP2G83J" started.
+2023-06-24 15:59:02.7686 DEBUG Connection 0HMRKMAP2G83J established using the following protocol: Tls13
+2023-06-24 15:59:02.8009 INFO Request starting HTTP/2 PUT https://localhost:7265/Announcement/30 application/json 44
+2023-06-24 15:59:02.8045 DEBUG 1 candidate(s) found for the request path '/Announcement/30'
+2023-06-24 15:59:02.8045 DEBUG Endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.UpdateAnnouncement (AnnouncementWebApi)' with route pattern 'Announcement/{id}' is valid for the request path '/Announcement/30'
+2023-06-24 15:59:02.8045 DEBUG Request matched endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.UpdateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:59:02.8045 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-24 15:59:02.8045 INFO Executing endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.UpdateAnnouncement (AnnouncementWebApi)'
+2023-06-24 15:59:02.9001 INFO Route matched with {action = "UpdateAnnouncement", controller = "Announcement"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateAnnouncement(Int32, Data.DTO.UpdateAnnouncementDTO) on controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi).
+2023-06-24 15:59:02.9001 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-24 15:59:02.9001 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-24 15:59:02.9001 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-24 15:59:02.9001 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-24 15:59:02.9001 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-24 15:59:02.9001 DEBUG Executing controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:59:03.1184 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-24 15:59:35.2971 DEBUG Executed controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 15:59:35.3168 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-06-24 15:59:35.3196 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-06-24 15:59:35.3196 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-24 15:59:35.3196 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-24 15:59:35.3196 DEBUG Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-06-24 15:59:35.3196 DEBUG Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-06-24 15:59:35.3196 DEBUG Attempting to bind parameter 'updateAnnouncement' of type 'Data.DTO.UpdateAnnouncementDTO' ...
+2023-06-24 15:59:35.3196 DEBUG Attempting to bind parameter 'updateAnnouncement' of type 'Data.DTO.UpdateAnnouncementDTO' using the name '' in request data ...
+2023-06-24 15:59:35.3196 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-06-24 15:59:35.4040 DEBUG Connection id "0HMRKMAP2G83J", Request id "0HMRKMAP2G83J:00000001": started reading request body.
+2023-06-24 15:59:35.4040 DEBUG Connection id "0HMRKMAP2G83J", Request id "0HMRKMAP2G83J:00000001": done reading request body.
+2023-06-24 15:59:35.4600 DEBUG JSON input formatter succeeded, deserializing to type 'Data.DTO.UpdateAnnouncementDTO'
+2023-06-24 15:59:35.4600 DEBUG Done attempting to bind parameter 'updateAnnouncement' of type 'Data.DTO.UpdateAnnouncementDTO'.
+2023-06-24 15:59:35.4600 DEBUG Done attempting to bind parameter 'updateAnnouncement' of type 'Data.DTO.UpdateAnnouncementDTO'.
+2023-06-24 15:59:35.4600 DEBUG Attempting to validate the bound parameter 'updateAnnouncement' of type 'Data.DTO.UpdateAnnouncementDTO' ...
+2023-06-24 15:59:35.4600 DEBUG Done attempting to validate the bound parameter 'updateAnnouncement' of type 'Data.DTO.UpdateAnnouncementDTO'.
+2023-06-24 15:59:51.7456 DEBUG Entity Framework Core 7.0.8 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: None
+2023-06-24 15:59:51.8992 DEBUG Compiling query expression: 
+'DbSet<Announcement>()
+    .FirstOrDefault(e => EF.Property<int>(e, "Id") == __p_0)'
+2023-06-24 15:59:52.1172 DEBUG Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Announcement>(
+    asyncEnumerable: new SingleQueryingEnumerable<Announcement>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Announcement.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Announcement.DateAdded (DateTime) Required, 1], [Property: Announcement.Description (string) Required, 2], [Property: Announcement.Title (string) Required, 3] }
+            SELECT TOP(1) a.Id, a.DateAdded, a.Description, a.Title
+            FROM Announcements AS a
+            WHERE a.Id == @__p_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Announcement>, 
+        Data.Data.RepositoryContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-06-24 15:59:52.1646 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-24 15:59:52.1646 DEBUG Creating DbConnection.
+2023-06-24 15:59:52.2013 DEBUG Created DbConnection. (32ms).
+2023-06-24 15:59:52.2130 DEBUG Created DbCommand for 'ExecuteReader' (48ms).
+2023-06-24 15:59:52.2324 DEBUG Initialized DbCommand for 'ExecuteReader' (70ms).
+2023-06-24 15:59:52.2324 DEBUG Opening connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:59:57.8905 DEBUG Opened connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:59:57.9044 DEBUG Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DateAdded], [a].[Description], [a].[Title]
+FROM [Announcements] AS [a]
+WHERE [a].[Id] = @__p_0
+2023-06-24 15:59:57.9857 INFO Executed DbCommand (85ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DateAdded], [a].[Description], [a].[Title]
+FROM [Announcements] AS [a]
+WHERE [a].[Id] = @__p_0
+2023-06-24 15:59:58.0341 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 15:59:58.0696 DEBUG Closing data reader to 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:59:58.0696 DEBUG A data reader for 'Announcement' on server '(localdb)\mssqllocaldb' is being disposed after spending 86ms reading results.
+2023-06-24 15:59:58.0847 DEBUG Closing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 15:59:58.0847 DEBUG Closed connection to database 'Announcement' on server '(localdb)\mssqllocaldb' (8ms).
+2023-06-24 16:00:19.6960 DEBUG SaveChanges starting for 'RepositoryContext'.
+2023-06-24 16:00:19.6960 DEBUG DetectChanges starting for 'RepositoryContext'.
+2023-06-24 16:00:19.7243 DEBUG The unchanged property 'Announcement.Description' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-06-24 16:00:19.7415 DEBUG An entity of type 'Announcement' tracked by 'RepositoryContext' changed state from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 16:00:19.7415 DEBUG The unchanged property 'Announcement.Title' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-06-24 16:00:19.7415 DEBUG DetectChanges completed for 'RepositoryContext'.
+2023-06-24 16:00:19.8301 DEBUG Opening connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:00:19.8301 DEBUG Opened connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:00:19.8376 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-24 16:00:19.8376 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 16:00:19.8376 DEBUG Initialized DbCommand for 'ExecuteReader' (1ms).
+2023-06-24 16:00:19.8376 DEBUG Executing DbCommand [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Announcements] SET [Description] = @p0, [Title] = @p1
+OUTPUT 1
+WHERE [Id] = @p2;
+2023-06-24 16:00:20.0147 INFO Executed DbCommand (175ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Announcements] SET [Description] = @p0, [Title] = @p1
+OUTPUT 1
+WHERE [Id] = @p2;
+2023-06-24 16:00:20.0147 DEBUG Closing data reader to 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:00:20.0147 DEBUG A data reader for 'Announcement' on server '(localdb)\mssqllocaldb' is being disposed after spending 6ms reading results.
+2023-06-24 16:00:20.0237 DEBUG Closing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:00:20.0237 DEBUG Closed connection to database 'Announcement' on server '(localdb)\mssqllocaldb' (0ms).
+2023-06-24 16:00:20.0237 DEBUG An entity of type 'Announcement' tracked by 'RepositoryContext' changed state from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 16:00:20.0237 DEBUG SaveChanges completed for 'RepositoryContext' with 1 entities written to the database.
+2023-06-24 16:00:29.8269 INFO Executing StatusCodeResult, setting HTTP status code 204
+2023-06-24 16:00:29.8401 INFO Executed action AnnouncementWebApi.Controllers.AnnouncementController.UpdateAnnouncement (AnnouncementWebApi) in 86930.5626ms
+2023-06-24 16:00:29.8401 INFO Executed endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.UpdateAnnouncement (AnnouncementWebApi)'
+2023-06-24 16:00:29.8401 DEBUG 'RepositoryContext' disposed.
+2023-06-24 16:00:29.8530 DEBUG Disposing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:00:29.8530 DEBUG Disposed connection to database '' on server '' (1ms).
+2023-06-24 16:00:29.8530 INFO Request finished HTTP/2 PUT https://localhost:7265/Announcement/30 application/json 44 - 204 - - 87055.9438ms
+2023-06-24 16:00:31.0500 DEBUG Connection id "0HMRKMAP2G83J" received FIN.
+2023-06-24 16:00:31.0500 DEBUG Connection id "0HMRKMAP2G83J" is closed. The last processed stream ID was 1.
+2023-06-24 16:00:31.0500 DEBUG Connection id "0HMRKMAP2G83J" sending FIN because: "The client closed the connection."
+2023-06-24 16:00:31.0544 DEBUG The connection queue processing loop for 0HMRKMAP2G83J completed.
+2023-06-24 16:00:31.0544 DEBUG Connection id "0HMRKMAP2G83J" stopped.
+2023-06-24 16:02:36.8680 DEBUG Connection id "0HMRKMAP2G83K" accepted.
+2023-06-24 16:02:36.8680 DEBUG Connection id "0HMRKMAP2G83K" started.
+2023-06-24 16:02:36.8883 DEBUG Connection 0HMRKMAP2G83K established using the following protocol: Tls13
+2023-06-24 16:02:36.8883 INFO Request starting HTTP/2 PUT https://localhost:7265/Announcement/30 application/json 48
+2023-06-24 16:02:36.8883 DEBUG 1 candidate(s) found for the request path '/Announcement/30'
+2023-06-24 16:02:36.8883 DEBUG Endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.UpdateAnnouncement (AnnouncementWebApi)' with route pattern 'Announcement/{id}' is valid for the request path '/Announcement/30'
+2023-06-24 16:02:36.9005 DEBUG Request matched endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.UpdateAnnouncement (AnnouncementWebApi)'
+2023-06-24 16:02:36.9005 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-24 16:02:36.9005 INFO Executing endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.UpdateAnnouncement (AnnouncementWebApi)'
+2023-06-24 16:02:36.9005 INFO Route matched with {action = "UpdateAnnouncement", controller = "Announcement"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateAnnouncement(Int32, Data.DTO.UpdateAnnouncementDTO) on controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi).
+2023-06-24 16:02:36.9005 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-24 16:02:36.9005 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-24 16:02:36.9005 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-24 16:02:36.9005 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-24 16:02:36.9005 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-24 16:02:36.9005 DEBUG Executing controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 16:02:36.9005 DEBUG Executed controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 16:02:36.9005 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-06-24 16:02:36.9005 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-06-24 16:02:36.9005 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-24 16:02:36.9005 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-24 16:02:36.9005 DEBUG Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-06-24 16:02:36.9005 DEBUG Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-06-24 16:02:36.9005 DEBUG Attempting to bind parameter 'updateAnnouncement' of type 'Data.DTO.UpdateAnnouncementDTO' ...
+2023-06-24 16:02:36.9005 DEBUG Attempting to bind parameter 'updateAnnouncement' of type 'Data.DTO.UpdateAnnouncementDTO' using the name '' in request data ...
+2023-06-24 16:02:36.9005 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-06-24 16:02:36.9005 DEBUG Connection id "0HMRKMAP2G83K", Request id "0HMRKMAP2G83K:00000001": started reading request body.
+2023-06-24 16:02:36.9005 DEBUG Connection id "0HMRKMAP2G83K", Request id "0HMRKMAP2G83K:00000001": done reading request body.
+2023-06-24 16:02:36.9005 DEBUG JSON input formatter succeeded, deserializing to type 'Data.DTO.UpdateAnnouncementDTO'
+2023-06-24 16:02:36.9005 DEBUG Done attempting to bind parameter 'updateAnnouncement' of type 'Data.DTO.UpdateAnnouncementDTO'.
+2023-06-24 16:02:36.9005 DEBUG Done attempting to bind parameter 'updateAnnouncement' of type 'Data.DTO.UpdateAnnouncementDTO'.
+2023-06-24 16:02:36.9005 DEBUG Attempting to validate the bound parameter 'updateAnnouncement' of type 'Data.DTO.UpdateAnnouncementDTO' ...
+2023-06-24 16:02:36.9005 DEBUG Done attempting to validate the bound parameter 'updateAnnouncement' of type 'Data.DTO.UpdateAnnouncementDTO'.
+2023-06-24 16:03:51.8805 DEBUG Entity Framework Core 7.0.8 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: None
+2023-06-24 16:03:51.8890 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-24 16:03:51.8890 DEBUG Creating DbConnection.
+2023-06-24 16:03:51.8890 DEBUG Created DbConnection. (0ms).
+2023-06-24 16:03:51.8890 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 16:03:51.8890 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 16:03:51.8890 DEBUG Opening connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:03:51.8890 DEBUG Opened connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:03:51.8890 DEBUG Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DateAdded], [a].[Description], [a].[Title]
+FROM [Announcements] AS [a]
+WHERE [a].[Id] = @__p_0
+2023-06-24 16:03:51.8890 INFO Executed DbCommand (6ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DateAdded], [a].[Description], [a].[Title]
+FROM [Announcements] AS [a]
+WHERE [a].[Id] = @__p_0
+2023-06-24 16:03:52.0556 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 16:03:52.0556 DEBUG Closing data reader to 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:03:52.0556 DEBUG A data reader for 'Announcement' on server '(localdb)\mssqllocaldb' is being disposed after spending 161ms reading results.
+2023-06-24 16:03:52.0556 DEBUG Closing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:03:52.0556 DEBUG Closed connection to database 'Announcement' on server '(localdb)\mssqllocaldb' (0ms).
+2023-06-24 16:04:06.6337 DEBUG The unchanged property 'Announcement.Description' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-06-24 16:04:06.6337 DEBUG An entity of type 'Announcement' tracked by 'RepositoryContext' changed state from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 16:04:06.6337 DEBUG The unchanged property 'Announcement.Title' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-06-24 16:04:11.7446 DEBUG SaveChanges starting for 'RepositoryContext'.
+2023-06-24 16:04:11.7446 DEBUG DetectChanges starting for 'RepositoryContext'.
+2023-06-24 16:04:11.7446 DEBUG DetectChanges completed for 'RepositoryContext'.
+2023-06-24 16:04:11.7446 DEBUG Opening connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:04:11.7446 DEBUG Opened connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:04:11.7446 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-24 16:04:11.7446 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 16:04:11.7446 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 16:04:11.7446 DEBUG Executing DbCommand [Parameters=[@p3='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Announcements] SET [DateAdded] = @p0, [Description] = @p1, [Title] = @p2
+OUTPUT 1
+WHERE [Id] = @p3;
+2023-06-24 16:04:11.8771 INFO Executed DbCommand (126ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Announcements] SET [DateAdded] = @p0, [Description] = @p1, [Title] = @p2
+OUTPUT 1
+WHERE [Id] = @p3;
+2023-06-24 16:04:11.8771 DEBUG Closing data reader to 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:04:11.8771 DEBUG A data reader for 'Announcement' on server '(localdb)\mssqllocaldb' is being disposed after spending 0ms reading results.
+2023-06-24 16:04:11.8771 DEBUG Closing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:04:11.8771 DEBUG Closed connection to database 'Announcement' on server '(localdb)\mssqllocaldb' (0ms).
+2023-06-24 16:04:11.8771 DEBUG An entity of type 'Announcement' tracked by 'RepositoryContext' changed state from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 16:04:11.8771 DEBUG SaveChanges completed for 'RepositoryContext' with 1 entities written to the database.
+2023-06-24 16:04:14.5194 INFO Executing StatusCodeResult, setting HTTP status code 204
+2023-06-24 16:04:14.5194 INFO Executed action AnnouncementWebApi.Controllers.AnnouncementController.UpdateAnnouncement (AnnouncementWebApi) in 97617.2073ms
+2023-06-24 16:04:14.5194 INFO Executed endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.UpdateAnnouncement (AnnouncementWebApi)'
+2023-06-24 16:04:14.5194 DEBUG 'RepositoryContext' disposed.
+2023-06-24 16:04:14.5194 DEBUG Disposing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:04:14.5194 DEBUG Disposed connection to database '' on server '' (0ms).
+2023-06-24 16:04:14.5194 INFO Request finished HTTP/2 PUT https://localhost:7265/Announcement/30 application/json 48 - 204 - - 97629.3741ms
+2023-06-24 16:04:16.4496 DEBUG Connection id "0HMRKMAP2G83K" received FIN.
+2023-06-24 16:04:16.4496 DEBUG Connection id "0HMRKMAP2G83K" is closed. The last processed stream ID was 1.
+2023-06-24 16:04:16.4496 DEBUG Connection id "0HMRKMAP2G83K" sending FIN because: "The client closed the connection."
+2023-06-24 16:04:16.4496 DEBUG The connection queue processing loop for 0HMRKMAP2G83K completed.
+2023-06-24 16:04:16.4496 DEBUG Connection id "0HMRKMAP2G83K" stopped.
+2023-06-24 16:05:06.9301 DEBUG Connection id "0HMRKMAP2G83L" accepted.
+2023-06-24 16:05:06.9301 DEBUG Connection id "0HMRKMAP2G83L" started.
+2023-06-24 16:05:06.9444 DEBUG Connection 0HMRKMAP2G83L established using the following protocol: Tls13
+2023-06-24 16:05:06.9444 INFO Request starting HTTP/2 PUT https://localhost:7265/Announcement/90 application/json 48
+2023-06-24 16:05:06.9444 DEBUG 1 candidate(s) found for the request path '/Announcement/90'
+2023-06-24 16:05:06.9444 DEBUG Endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.UpdateAnnouncement (AnnouncementWebApi)' with route pattern 'Announcement/{id}' is valid for the request path '/Announcement/90'
+2023-06-24 16:05:06.9444 DEBUG Request matched endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.UpdateAnnouncement (AnnouncementWebApi)'
+2023-06-24 16:05:06.9444 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-24 16:05:06.9444 INFO Executing endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.UpdateAnnouncement (AnnouncementWebApi)'
+2023-06-24 16:05:06.9714 INFO Route matched with {action = "UpdateAnnouncement", controller = "Announcement"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateAnnouncement(Int32, Data.DTO.UpdateAnnouncementDTO) on controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi).
+2023-06-24 16:05:06.9714 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-24 16:05:06.9714 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-24 16:05:06.9714 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-24 16:05:06.9714 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-24 16:05:06.9714 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-24 16:05:06.9714 DEBUG Executing controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 16:05:06.9714 DEBUG Executed controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 16:05:06.9714 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-06-24 16:05:06.9714 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-06-24 16:05:06.9714 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-24 16:05:06.9714 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-24 16:05:06.9714 DEBUG Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-06-24 16:05:06.9714 DEBUG Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-06-24 16:05:06.9714 DEBUG Attempting to bind parameter 'updateAnnouncement' of type 'Data.DTO.UpdateAnnouncementDTO' ...
+2023-06-24 16:05:06.9714 DEBUG Attempting to bind parameter 'updateAnnouncement' of type 'Data.DTO.UpdateAnnouncementDTO' using the name '' in request data ...
+2023-06-24 16:05:06.9714 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-06-24 16:05:06.9753 DEBUG Connection id "0HMRKMAP2G83L", Request id "0HMRKMAP2G83L:00000001": started reading request body.
+2023-06-24 16:05:06.9753 DEBUG Connection id "0HMRKMAP2G83L", Request id "0HMRKMAP2G83L:00000001": done reading request body.
+2023-06-24 16:05:06.9753 DEBUG JSON input formatter succeeded, deserializing to type 'Data.DTO.UpdateAnnouncementDTO'
+2023-06-24 16:05:06.9753 DEBUG Done attempting to bind parameter 'updateAnnouncement' of type 'Data.DTO.UpdateAnnouncementDTO'.
+2023-06-24 16:05:06.9753 DEBUG Done attempting to bind parameter 'updateAnnouncement' of type 'Data.DTO.UpdateAnnouncementDTO'.
+2023-06-24 16:05:06.9753 DEBUG Attempting to validate the bound parameter 'updateAnnouncement' of type 'Data.DTO.UpdateAnnouncementDTO' ...
+2023-06-24 16:05:06.9753 DEBUG Done attempting to validate the bound parameter 'updateAnnouncement' of type 'Data.DTO.UpdateAnnouncementDTO'.
+2023-06-24 16:05:17.6232 DEBUG Entity Framework Core 7.0.8 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: None
+2023-06-24 16:05:17.6232 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-24 16:05:17.6232 DEBUG Creating DbConnection.
+2023-06-24 16:05:17.6232 DEBUG Created DbConnection. (0ms).
+2023-06-24 16:05:17.6232 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 16:05:17.6232 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 16:05:17.6232 DEBUG Opening connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:05:17.6232 DEBUG Opened connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:05:17.6232 DEBUG Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DateAdded], [a].[Description], [a].[Title]
+FROM [Announcements] AS [a]
+WHERE [a].[Id] = @__p_0
+2023-06-24 16:05:17.6799 INFO Executed DbCommand (52ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DateAdded], [a].[Description], [a].[Title]
+FROM [Announcements] AS [a]
+WHERE [a].[Id] = @__p_0
+2023-06-24 16:05:17.6799 DEBUG Closing data reader to 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:05:17.6799 DEBUG A data reader for 'Announcement' on server '(localdb)\mssqllocaldb' is being disposed after spending 0ms reading results.
+2023-06-24 16:05:17.6799 DEBUG Closing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:05:17.6799 DEBUG Closed connection to database 'Announcement' on server '(localdb)\mssqllocaldb' (0ms).
+2023-06-24 16:05:23.1640 INFO Annoucement with id: 90 doesn't exist in the database.
+2023-06-24 16:05:27.4445 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-06-24 16:05:27.4445 DEBUG No information found on request to perform content negotiation.
+2023-06-24 16:05:27.4445 DEBUG Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types 'application/problem+json, application/problem+xml, application/problem+json, application/problem+xml'.
+2023-06-24 16:05:27.4445 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2023-06-24 16:05:27.4445 INFO Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-06-24 16:05:27.4651 INFO Executed action AnnouncementWebApi.Controllers.AnnouncementController.UpdateAnnouncement (AnnouncementWebApi) in 20493.4136ms
+2023-06-24 16:05:27.4651 INFO Executed endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.UpdateAnnouncement (AnnouncementWebApi)'
+2023-06-24 16:05:27.4651 DEBUG 'RepositoryContext' disposed.
+2023-06-24 16:05:27.4651 DEBUG Disposing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:05:27.4651 DEBUG Disposed connection to database '' on server '' (0ms).
+2023-06-24 16:05:27.4651 INFO Request finished HTTP/2 PUT https://localhost:7265/Announcement/90 application/json 48 - 404 - application/problem+json;+charset=utf-8 20512.9103ms
+2023-06-24 16:05:31.6072 DEBUG Connection id "0HMRKMAP2G83L" received FIN.
+2023-06-24 16:05:31.6072 DEBUG Connection id "0HMRKMAP2G83L" is closed. The last processed stream ID was 1.
+2023-06-24 16:05:31.6072 DEBUG The connection queue processing loop for 0HMRKMAP2G83L completed.
+2023-06-24 16:05:31.6072 DEBUG Connection id "0HMRKMAP2G83L" sending FIN because: "The client closed the connection."
+2023-06-24 16:05:31.6215 DEBUG Connection id "0HMRKMAP2G83L" stopped.
+2023-06-24 16:25:28.9757 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-24 16:25:29.1387 DEBUG Hosting starting
+2023-06-24 16:25:29.8656 INFO Now listening on: https://localhost:7265
+2023-06-24 16:25:29.8656 INFO Now listening on: http://localhost:5273
+2023-06-24 16:25:29.8656 DEBUG Loaded hosting startup assembly AnnouncementWebApi
+2023-06-24 16:25:29.8656 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-24 16:25:29.8656 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-24 16:25:29.8656 INFO Application started. Press Ctrl+C to shut down.
+2023-06-24 16:25:29.8656 INFO Hosting environment: Development
+2023-06-24 16:25:29.8656 INFO Content root path: C:\Users\Я\OneDrive\Рабочий стол\data\announcement2\Announcement-Web-Api\AnnouncementWebApi
+2023-06-24 16:25:29.8656 DEBUG Hosting started
+2023-06-24 16:25:30.3038 DEBUG Connection id "0HMRKMPTJB370" received FIN.
+2023-06-24 16:25:30.3038 DEBUG Connection id "0HMRKMPTJB370" accepted.
+2023-06-24 16:25:30.3038 DEBUG Connection id "0HMRKMPTJB370" started.
+2023-06-24 16:25:30.3423 DEBUG Failed to authenticate HTTPS connection.
+2023-06-24 16:25:30.3423 DEBUG Connection id "0HMRKMPTJB370" stopped.
+2023-06-24 16:25:30.3552 DEBUG Connection id "0HMRKMPTJB370" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-24 16:25:31.8426 DEBUG Connection id "0HMRKMPTJB371" accepted.
+2023-06-24 16:25:31.8785 DEBUG Connection id "0HMRKMPTJB371" started.
+2023-06-24 16:25:32.2288 DEBUG Connection 0HMRKMPTJB371 established using the following protocol: Tls13
+2023-06-24 16:25:32.3792 INFO Request starting HTTP/2 GET https://localhost:7265/swagger/index.html - -
+2023-06-24 16:25:32.4382 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2023-06-24 16:25:32.5079 DEBUG No candidates found for the request path '/swagger/index.html'
+2023-06-24 16:25:32.5079 DEBUG Request did not match any endpoints
+2023-06-24 16:25:32.8636 DEBUG Response markup is scheduled to include browser refresh script injection.
+2023-06-24 16:25:32.9199 DEBUG Response markup was updated to include browser refresh script injection.
+2023-06-24 16:25:32.9284 INFO Request finished HTTP/2 GET https://localhost:7265/swagger/index.html - - - 200 - text/html;charset=utf-8 550.0222ms
+2023-06-24 16:25:32.9446 INFO Request starting HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - -
+2023-06-24 16:25:32.9604 INFO Request finished HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 15.6246ms
+2023-06-24 16:25:34.0627 INFO Request starting HTTP/2 GET https://localhost:7265/_vs/browserLink - -
+2023-06-24 16:25:34.1742 INFO Request finished HTTP/2 GET https://localhost:7265/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 111.4740ms
+2023-06-24 16:25:34.2781 INFO Request starting HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - -
+2023-06-24 16:25:34.2781 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-24 16:25:34.2781 DEBUG Request did not match any endpoints
+2023-06-24 16:25:34.6502 INFO Request finished HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 372.0251ms
+2023-06-24 16:25:36.4063 DEBUG Connection id "0HMRKMPTJB371" received FIN.
+2023-06-24 16:25:36.4063 DEBUG The connection queue processing loop for 0HMRKMPTJB371 completed.
+2023-06-24 16:25:36.4143 DEBUG Connection id "0HMRKMPTJB371" is closed. The last processed stream ID was 7.
+2023-06-24 16:25:36.4143 DEBUG Connection id "0HMRKMPTJB371" sending FIN because: "The client closed the connection."
+2023-06-24 16:25:36.4143 DEBUG Connection id "0HMRKMPTJB371" stopped.
+2023-06-24 16:25:47.2150 DEBUG Connection id "0HMRKMPTJB372" accepted.
+2023-06-24 16:25:47.2150 DEBUG Connection id "0HMRKMPTJB372" started.
+2023-06-24 16:25:47.2150 DEBUG Connection 0HMRKMPTJB372 established using the following protocol: Tls13
+2023-06-24 16:25:47.2256 INFO Request starting HTTP/2 DELETE https://localhost:7265/Announcement/31 - -
+2023-06-24 16:25:47.2256 DEBUG 1 candidate(s) found for the request path '/Announcement/31'
+2023-06-24 16:25:47.2256 DEBUG Endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.DeleteAnnouncement (AnnouncementWebApi)' with route pattern 'Announcement/{id}' is valid for the request path '/Announcement/31'
+2023-06-24 16:25:47.2256 DEBUG Request matched endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.DeleteAnnouncement (AnnouncementWebApi)'
+2023-06-24 16:25:47.2256 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-24 16:25:47.2422 INFO Executing endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.DeleteAnnouncement (AnnouncementWebApi)'
+2023-06-24 16:25:47.3033 INFO Route matched with {action = "DeleteAnnouncement", controller = "Announcement"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteAnnouncement(Int32) on controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi).
+2023-06-24 16:25:47.3193 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-24 16:25:47.3193 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-24 16:25:47.3193 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-24 16:25:47.3193 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-24 16:25:47.3193 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-24 16:25:47.3193 DEBUG Executing controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 16:25:47.5543 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-24 16:25:57.8009 DEBUG Executed controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 16:25:57.8267 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-06-24 16:25:57.8267 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-06-24 16:25:57.8267 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-24 16:25:57.8267 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-24 16:25:57.8267 DEBUG Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-06-24 16:25:57.8377 DEBUG Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-06-24 16:26:10.2817 DEBUG Entity Framework Core 7.0.8 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: None
+2023-06-24 16:26:10.4452 DEBUG Compiling query expression: 
+'DbSet<Announcement>()
+    .FirstOrDefault(e => EF.Property<int>(e, "Id") == __p_0)'
+2023-06-24 16:26:10.6845 DEBUG Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Announcement>(
+    asyncEnumerable: new SingleQueryingEnumerable<Announcement>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Announcement.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Announcement.DateAdded (DateTime) Required, 1], [Property: Announcement.Description (string) Required, 2], [Property: Announcement.Title (string) Required, 3] }
+            SELECT TOP(1) a.Id, a.DateAdded, a.Description, a.Title
+            FROM Announcements AS a
+            WHERE a.Id == @__p_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Announcement>, 
+        Data.Data.RepositoryContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-06-24 16:26:10.7252 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-24 16:26:10.7252 DEBUG Creating DbConnection.
+2023-06-24 16:26:10.7673 DEBUG Created DbConnection. (33ms).
+2023-06-24 16:26:10.7809 DEBUG Created DbCommand for 'ExecuteReader' (57ms).
+2023-06-24 16:26:10.8007 DEBUG Initialized DbCommand for 'ExecuteReader' (77ms).
+2023-06-24 16:26:10.8079 DEBUG Opening connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:26:14.4353 DEBUG Opened connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:26:14.4548 DEBUG Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DateAdded], [a].[Description], [a].[Title]
+FROM [Announcements] AS [a]
+WHERE [a].[Id] = @__p_0
+2023-06-24 16:26:14.5473 INFO Executed DbCommand (103ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DateAdded], [a].[Description], [a].[Title]
+FROM [Announcements] AS [a]
+WHERE [a].[Id] = @__p_0
+2023-06-24 16:26:14.5838 DEBUG Context 'RepositoryContext' started tracking 'Announcement' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 16:26:14.6111 DEBUG Closing data reader to 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:26:14.6177 DEBUG A data reader for 'Announcement' on server '(localdb)\mssqllocaldb' is being disposed after spending 66ms reading results.
+2023-06-24 16:26:14.6177 DEBUG Closing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:26:14.6177 DEBUG Closed connection to database 'Announcement' on server '(localdb)\mssqllocaldb' (8ms).
+2023-06-24 16:26:30.4023 DEBUG An entity of type 'Announcement' tracked by 'RepositoryContext' changed state from 'Unchanged' to 'Deleted'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 16:26:35.7622 DEBUG SaveChanges starting for 'RepositoryContext'.
+2023-06-24 16:26:35.7622 DEBUG DetectChanges starting for 'RepositoryContext'.
+2023-06-24 16:26:35.7900 DEBUG DetectChanges completed for 'RepositoryContext'.
+2023-06-24 16:26:35.8940 DEBUG Opening connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:26:35.8940 DEBUG Opened connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:26:36.0361 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-24 16:26:36.0361 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 16:26:36.0361 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 16:26:36.0361 DEBUG Executing DbCommand [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Announcements]
+OUTPUT 1
+WHERE [Id] = @p0;
+2023-06-24 16:26:36.1819 INFO Executed DbCommand (145ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Announcements]
+OUTPUT 1
+WHERE [Id] = @p0;
+2023-06-24 16:26:36.1819 DEBUG Closing data reader to 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:26:36.1819 DEBUG A data reader for 'Announcement' on server '(localdb)\mssqllocaldb' is being disposed after spending 8ms reading results.
+2023-06-24 16:26:36.1819 DEBUG Closing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:26:36.1939 DEBUG Closed connection to database 'Announcement' on server '(localdb)\mssqllocaldb' (0ms).
+2023-06-24 16:26:36.1939 DEBUG An entity of type 'Announcement' tracked by 'RepositoryContext' changed state from 'Deleted' to 'Detached'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-24 16:26:36.1939 DEBUG SaveChanges completed for 'RepositoryContext' with 1 entities written to the database.
+2023-06-24 16:26:39.0723 INFO Executing StatusCodeResult, setting HTTP status code 204
+2023-06-24 16:26:39.0958 INFO Executed action AnnouncementWebApi.Controllers.AnnouncementController.DeleteAnnouncement (AnnouncementWebApi) in 51765.7633ms
+2023-06-24 16:26:39.0958 INFO Executed endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.DeleteAnnouncement (AnnouncementWebApi)'
+2023-06-24 16:26:39.1029 DEBUG 'RepositoryContext' disposed.
+2023-06-24 16:26:39.1029 DEBUG Disposing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:26:39.1216 DEBUG Disposed connection to database '' on server '' (4ms).
+2023-06-24 16:26:39.1216 INFO Request finished HTTP/2 DELETE https://localhost:7265/Announcement/31 - - - 204 - - 51896.9583ms
+2023-06-24 16:26:41.4998 DEBUG Connection id "0HMRKMPTJB372" received FIN.
+2023-06-24 16:26:41.4998 DEBUG Connection id "0HMRKMPTJB372" is closed. The last processed stream ID was 1.
+2023-06-24 16:26:41.4998 DEBUG Connection id "0HMRKMPTJB372" sending FIN because: "The client closed the connection."
+2023-06-24 16:26:41.4998 DEBUG The connection queue processing loop for 0HMRKMPTJB372 completed.
+2023-06-24 16:26:41.5137 DEBUG Connection id "0HMRKMPTJB372" stopped.
+2023-06-24 16:27:11.7038 DEBUG Connection id "0HMRKMPTJB373" accepted.
+2023-06-24 16:27:11.7116 DEBUG Connection id "0HMRKMPTJB373" started.
+2023-06-24 16:27:11.7116 DEBUG Connection 0HMRKMPTJB373 established using the following protocol: Tls13
+2023-06-24 16:27:11.7116 INFO Request starting HTTP/2 DELETE https://localhost:7265/Announcement/66 - -
+2023-06-24 16:27:11.7116 DEBUG 1 candidate(s) found for the request path '/Announcement/66'
+2023-06-24 16:27:11.7116 DEBUG Endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.DeleteAnnouncement (AnnouncementWebApi)' with route pattern 'Announcement/{id}' is valid for the request path '/Announcement/66'
+2023-06-24 16:27:11.7270 DEBUG Request matched endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.DeleteAnnouncement (AnnouncementWebApi)'
+2023-06-24 16:27:11.7270 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-24 16:27:11.7270 INFO Executing endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.DeleteAnnouncement (AnnouncementWebApi)'
+2023-06-24 16:27:11.7270 INFO Route matched with {action = "DeleteAnnouncement", controller = "Announcement"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteAnnouncement(Int32) on controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi).
+2023-06-24 16:27:11.7270 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-24 16:27:11.7270 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-24 16:27:11.7270 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-24 16:27:11.7270 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-24 16:27:11.7270 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-24 16:27:11.7270 DEBUG Executing controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 16:27:11.7270 DEBUG Executed controller factory for controller AnnouncementWebApi.Controllers.AnnouncementController (AnnouncementWebApi)
+2023-06-24 16:27:11.7270 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-06-24 16:27:11.7270 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-06-24 16:27:11.7270 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-24 16:27:11.7270 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-06-24 16:27:11.7270 DEBUG Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-06-24 16:27:11.7270 DEBUG Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-06-24 16:27:15.4921 DEBUG Entity Framework Core 7.0.8 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: None
+2023-06-24 16:27:15.4921 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-24 16:27:15.4921 DEBUG Creating DbConnection.
+2023-06-24 16:27:15.4921 DEBUG Created DbConnection. (0ms).
+2023-06-24 16:27:15.4921 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 16:27:15.4921 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-06-24 16:27:15.4921 DEBUG Opening connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:27:15.4921 DEBUG Opened connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:27:15.4921 DEBUG Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DateAdded], [a].[Description], [a].[Title]
+FROM [Announcements] AS [a]
+WHERE [a].[Id] = @__p_0
+2023-06-24 16:27:15.4921 INFO Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DateAdded], [a].[Description], [a].[Title]
+FROM [Announcements] AS [a]
+WHERE [a].[Id] = @__p_0
+2023-06-24 16:27:15.5531 DEBUG Closing data reader to 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:27:15.5531 DEBUG A data reader for 'Announcement' on server '(localdb)\mssqllocaldb' is being disposed after spending 0ms reading results.
+2023-06-24 16:27:15.5531 DEBUG Closing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:27:15.5531 DEBUG Closed connection to database 'Announcement' on server '(localdb)\mssqllocaldb' (0ms).
+2023-06-24 16:27:17.4992 INFO Announcement with id: 66 doesn't exist in the database.
+2023-06-24 16:27:18.8971 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-06-24 16:27:18.8971 DEBUG No information found on request to perform content negotiation.
+2023-06-24 16:27:18.8971 DEBUG Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types 'application/problem+json, application/problem+xml, application/problem+json, application/problem+xml'.
+2023-06-24 16:27:18.9150 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2023-06-24 16:27:18.9150 INFO Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-06-24 16:27:18.9150 INFO Executed action AnnouncementWebApi.Controllers.AnnouncementController.DeleteAnnouncement (AnnouncementWebApi) in 7193.0362ms
+2023-06-24 16:27:18.9150 INFO Executed endpoint 'AnnouncementWebApi.Controllers.AnnouncementController.DeleteAnnouncement (AnnouncementWebApi)'
+2023-06-24 16:27:18.9150 DEBUG 'RepositoryContext' disposed.
+2023-06-24 16:27:18.9150 DEBUG Disposing connection to database 'Announcement' on server '(localdb)\mssqllocaldb'.
+2023-06-24 16:27:18.9150 DEBUG Disposed connection to database '' on server '' (0ms).
+2023-06-24 16:27:18.9150 INFO Request finished HTTP/2 DELETE https://localhost:7265/Announcement/66 - - - 404 - application/problem+json;+charset=utf-8 7202.5237ms
+2023-06-24 16:27:21.5537 DEBUG Connection id "0HMRKMPTJB373" received FIN.
+2023-06-24 16:27:21.5546 DEBUG Connection id "0HMRKMPTJB373" is closed. The last processed stream ID was 1.
+2023-06-24 16:27:21.5546 DEBUG The connection queue processing loop for 0HMRKMPTJB373 completed.
+2023-06-24 16:27:21.5546 DEBUG Connection id "0HMRKMPTJB373" sending FIN because: "The client closed the connection."
+2023-06-24 16:27:21.5546 DEBUG Connection id "0HMRKMPTJB373" stopped.

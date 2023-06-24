@@ -1,5 +1,10 @@
-using Entities;
+using AnnouncementWebApi.Services;
+using Data;
+using Data.Data;
+using Interfaces;
 using Microsoft.EntityFrameworkCore;
+using NLog.Web;
+using Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,8 +14,13 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddDbContext<RepositoryContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection")));
+builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
+builder.Services.AddSingleton<ILoggerService, LoggerService>();
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Logging.ClearProviders();
+builder.WebHost.UseNLog();
 
 var app = builder.Build();
 
