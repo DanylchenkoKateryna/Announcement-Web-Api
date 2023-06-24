@@ -1,10 +1,15 @@
 using AnnouncementWebApi.Services;
 using Data;
 using Data.Data;
+using Data.Entities;
+using Data.FluentValidation;
+using FluentValidation;
+using FluentValidation;
 using Interfaces;
 using Microsoft.EntityFrameworkCore;
 using NLog.Web;
 using Repository;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,7 +26,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Logging.ClearProviders();
 builder.WebHost.UseNLog();
-
+builder.Services.AddScoped<IValidator<Announcement>, AnnoucementValidation>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
